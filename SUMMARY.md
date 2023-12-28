@@ -1,7 +1,6 @@
 # Table of contents
 
-* [plurality-docs](README.md)
-* [👋 Welcome to A Product](<README (1).md>)
+* [👋 Welcome to A Product](README.md)
 
 ## Overview
 
