@@ -38,10 +38,40 @@ If the user loses the seed phrase, it is impossible to recover the wallet unless
 
 ### Lack of personalized experience
 
-Until now, the data being stored against a wallet are mostly financial like buying/selling tokens & NFTs.&#x20;
+Until now, the data being stored against a wallet is mostly financial like buying/selling tokens & NFTs.&#x20;
 
 > Web3 wallets are nothing more than a bank account for now
 
+However, if we compare this behavior with web2 platforms, we can see that there is a lot more information about the user stored against the user profiles. Using this data, the platforms provide a personalized experience to the user. For example:
 
+1. If a user regularly listens to songs from a certain artist, they will see suggestions of more songs from that same artist
+2. If a user has done projects in Typescript, they will see more gigs related to Typescript
+3. If a user has joined a certain kind of community, they will get recommendations to join other similar communities
+
+etc.
+
+These interactions with a platform increase user engagement and enable them to have a meaningful experience on a platform. But, this is only possible if the platform has this information that it can use to tweak the experience for a certain user.
+
+Web3 currently does not store any such data and due to this, it does not have the means to provide for such a personalized experience.&#x20;
+
+> The current yearly user retention rate on web3 dApps is merely 7%
+
+One way could be to create web3 platforms that store such data and then wait for people to come and interact with the platform and then after that will it be able to provide a good experience.
+
+But this is a cyclical problem, also known as the _Cold Start Problem._&#x20;
+
+Platforms cannot provide a good experience without users using the platform. And users would not use the platform unless there is a good experience.  And this is one of the biggest challenges of web3 dApps right now.&#x20;
+
+One approach to handle this would be to reuse the data from the user's web2 profiles, which is what Plurality aims to do.&#x20;
 
 ### Lack of community
+
+Platforms grow with communities and network effects. However, communities cannot be formed unless it is known what a certain user is interested in.&#x20;
+
+One of the biggest growth reasons for web2 was the use of network effects. However, network effects are not yet possible to be created in web3 because only the data of financial transactions does not tell much about the user.
+
+Once we link the interests of a user to their wallet, the creation of interest-based communities and consequently network effects will be easier to achieve.&#x20;
+
+{% hint style="info" %}
+While linking user information to their wallet, it is important to preserve the user's privacy, since data by default is transparent on the blockchain.  To learn more about how this can be possible, see concepts of [zero-knowledge proofs](data-ownership.md#zero-knowledge-proofs) and [data streams](data-ownership.md#data-streams).
+{% endhint %}
