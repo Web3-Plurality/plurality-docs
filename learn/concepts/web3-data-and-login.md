@@ -26,10 +26,16 @@ It is now increasingly clear that the current wallet creation and login processe
 
 #### Account Abstraction
 
-From a user perspective, account abstraction means that the technical details of blockchain wallets are concealed from the user, elevating their experience.
+From a user perspective, account abstraction means that the technical details of blockchain wallets are concealed from the user, thus providing them with a better experience.
 
-From a technical perspective,  account abstraction has many different implementations based on different ERCs allowing for various features targeted to improve user experience including gas paymasters, multisig, social recovery, etc.
+From a technical perspective,  account abstraction has many different implementations based on different Ethereum Request for Comments (ERCs). These implementations allow for various features targeted to improve user experience including gas paymasters, multisig, social recovery, etc.
 
 #### Wallet Abstraction through OAuth
 
-Wallet abstraction through oAuth is a specific type of account abstraction where users can use their existing web2 logins by authenticating via oAuth to create a web3 wallet. Such a combination not only abstracts away the existence of a wallet for users but is also extremely familiar and easy for users to create a web3 account. Plurality is focused on this kind of account abstraction to provide a good onboarding experience for users.
+Wallet abstraction through oAuth is a specific type of account abstraction where users can use their existing web2 logins to create a web3 wallet. Authentication is done via Oauth to ensure that the wallet user is indeed the owner of the web2 profile and then it is used for wallet creation.&#x20;
+
+This feature allows for a simple login workflow like on many web2 websites today where you can create a new profile using an existing profile.&#x20;
+
+Such a combination not only abstracts away the existence of a wallet for users but is also extremely familiar and easy for users to create a web3 account. Moreover, the recovery mechanism in this case is also straightforward. As long as the user has access to the web2 profile, they can also use their web3 wallet.&#x20;
+
+Plurality is focused on this kind of account abstraction to provide a good onboarding experience for users.
