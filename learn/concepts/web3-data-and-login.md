@@ -22,7 +22,7 @@ Web3 login refers to the process of creating and using a wallet on a blockchain.
 
 ### Easier Login Processes
 
-It is now increasingly clear that the current&#x20;
+It is now increasingly clear that the current wallet creation and login processes are too complicated for an average user, and therefore, techniques for easier login processes are now being developed. Two of these techniques are discussed here.&#x20;
 
 #### Account Abstraction
 
