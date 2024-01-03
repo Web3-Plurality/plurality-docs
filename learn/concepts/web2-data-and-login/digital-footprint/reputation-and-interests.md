@@ -1,5 +1,7 @@
 # Reputation and Interests
 
+A user's reputation and interests can be extracted from their online activity (digital footprint).
+
 #### Reputation
 
 The reputation of a person online consists of the data tagged to the person that represents the skillset and capabilities of that person.&#x20;
