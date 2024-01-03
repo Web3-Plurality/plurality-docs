@@ -12,7 +12,7 @@
 * [🌐 Web2 Data and Login](concepts/web2-data-and-login/README.md)
   * [👣 Digital Footprint](concepts/web2-data-and-login/digital-footprint/README.md)
     * [🧐 Reputation and Interests](concepts/web2-data-and-login/digital-footprint/reputation-and-interests.md)
-  * [Login Mechanism](concepts/web2-data-and-login/login-mechanism.md)
+  * [🖇 Login Mechanism](concepts/web2-data-and-login/login-mechanism.md)
 * [🔐 Web3 Login](concepts/web3-login.md)
 * [📂 Data Ownership](concepts/data-ownership.md)
 * [🤑 Data Economy](concepts/data-economy.md)

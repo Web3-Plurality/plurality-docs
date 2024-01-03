@@ -1,4 +1,4 @@
-# Login Mechanism
+# 🖇 Login Mechanism
 
 ## Traditional Login Mechanism
 
