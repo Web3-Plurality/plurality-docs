@@ -2,7 +2,17 @@
 
 ## Web3 Data
 
+The data stored on web3 is only transactional data, which means that every time a user sends or receives something, an entry is added to the global ledger of the blockchain.&#x20;
 
+However, it is also possible to add a link inside this transaction to a decentralized database like IPFS, Arweave, Ceramic, etc. These links are unique on the decentralized databases and can contain arbitrary extra information.&#x20;
+
+Until now, the most popular use case for storing extra data on decentralized databases is that of the assets of a Non-Fungible Token (NFT).&#x20;
+
+{% hint style="info" %}
+All data stored on the blockchain or on the decentralized databases is open and publicly visible by default, unless special mechanisms are employed to preserve the privacy.
+
+To learn more about preserving privacy, read more information on [encrypted data streams.](data-ownership.md#data-streams)
+{% endhint %}
 
 ## Web3 Login
 
@@ -11,6 +21,8 @@ Web3 login refers to the process of creating and using a wallet on a blockchain.
 > One of the biggest challenges in web3 adoption is the average user’s lack of technical expertise in creating and managing wallets.
 
 ### Easier Login Processes
+
+It is now increasingly clear that the current&#x20;
 
 #### Account Abstraction
 
