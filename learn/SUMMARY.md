@@ -14,8 +14,7 @@
     * [🧐 Reputation and Interests](concepts/web2-data-and-login/digital-footprint/reputation-and-interests.md)
   * [🖇 Login Mechanism](concepts/web2-data-and-login/login-mechanism.md)
 * [🌍 Web3 Challenges](concepts/web3-challenges.md)
-* [Page 1](concepts/page-1.md)
-* [🔐 Web3 Login](concepts/web3-login.md)
+* [🔐 Web3 Data and Login](concepts/web3-data-and-login.md)
 * [📂 Data Ownership](concepts/data-ownership.md)
 * [🤑 Data Economy](concepts/data-economy.md)
 

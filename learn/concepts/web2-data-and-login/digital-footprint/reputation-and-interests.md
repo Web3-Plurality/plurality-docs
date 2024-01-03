@@ -1,4 +1,4 @@
-# Reputation and Interests
+# 🧐 Reputation and Interests
 
 A user's reputation and interests can be extracted from their online activity ([digital footprint](./)).
 
