@@ -24,6 +24,8 @@ The wallet is on the user’s end-device which interacts with the smart contract
 
 Since plurality wants to bring the user’s data from web2 and link it to the web3 account, it intends to do so keeping the ethos of web3 intact and keeping the state client-side.
 
+<figure><img src="../.gitbook/assets/Picture1 (1).png" alt="" width="375"><figcaption><p>Plurality moves the user state from server-side to client-side</p></figcaption></figure>
+
 Plurality wants to store the user’s data in a way that it is controllable from the user’s wallet and shared with dApps on the end user device e.g., a browser.
 
 ## Data Sovereignty & Decentralized Identifier (DID)
