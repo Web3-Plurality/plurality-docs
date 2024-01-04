@@ -7,3 +7,7 @@ Web3 gaming is a new genre where these assets are owned by the users as NFTs and
 However, with plurality, the player experience can be further increased by linking user's web2 gaming profiles to extract the in-game assets and experiences the user would be interested in.&#x20;
 
 The gaming experience could become more immersive and personalized for the user via Plurality. &#x20;
+
+{% hint style="info" %}
+Example platforms where data for this feature could be fetched: Roblox, CSGo, etc.
+{% endhint %}
