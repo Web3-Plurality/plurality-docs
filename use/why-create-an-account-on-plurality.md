@@ -2,7 +2,7 @@
 
 As a user, you might ask why you should be a part of the plurality network and create your personalized web3 account.&#x20;
 
-Here are a few reasons why you should become a part of Plurality.
+Here are a few reasons why you should become a part of Plurality:
 
 ## Easy Account Login
 
