@@ -20,6 +20,7 @@
 
 ## Usecases
 
+* [🤝 How Plurality can help dApps?](usecases/how-plurality-can-help-dapps.md)
 * [🎭 Social feed personalization](usecases/social-feed-personalization.md)
 * [📑 Marketplace listings](usecases/marketplace-listings.md)
 * [👷 Relevant jobs on gig platforms](usecases/relevant-jobs-on-gig-platforms.md)
