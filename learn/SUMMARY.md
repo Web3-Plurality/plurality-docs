@@ -20,12 +20,14 @@
 
 ## Usecases
 
-* [🤝 How Plurality can help dApps?](usecases/how-plurality-can-help-dapps.md)
-* [🎭 Social feed personalization](usecases/social-feed-personalization.md)
-* [📑 Marketplace listings](usecases/marketplace-listings.md)
-* [👷 Relevant jobs on gig platforms](usecases/relevant-jobs-on-gig-platforms.md)
-* [📺 Content recommendations](usecases/content-recommendations.md)
-* [🔏 Easy login](usecases/easy-login.md)
+* [🤝 How Plurality can help dApps?](usecases/how-plurality-can-help-dapps/README.md)
+  * [🎭 Social feed personalization](usecases/how-plurality-can-help-dapps/social-feed-personalization.md)
+  * [📑 Marketplace listings](usecases/how-plurality-can-help-dapps/marketplace-listings.md)
+  * [📺 Content recommendations](usecases/how-plurality-can-help-dapps/content-recommendations.md)
+  * [👷 Relevant jobs on gig platforms](usecases/how-plurality-can-help-dapps/relevant-jobs-on-gig-platforms.md)
+  * [🔏 Easy login](usecases/how-plurality-can-help-dapps/easy-login.md)
+  * [🙆♂ Sybil Resistance](usecases/how-plurality-can-help-dapps/sybil-resistance.md)
+  * [🎮 Web3 Gaming](usecases/how-plurality-can-help-dapps/web3-gaming.md)
 
 ## Protocol overview
 
