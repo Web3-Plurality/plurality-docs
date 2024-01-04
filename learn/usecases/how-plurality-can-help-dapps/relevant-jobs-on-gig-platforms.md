@@ -6,10 +6,10 @@ Web3-based gig platforms have a great chance to become ubiquitous soon. However,
 
 In the web3 world where the user is just a wallet, knowing this was not possible before Plurality.&#x20;
 
-Every person on a gig platform who needs a way to showcase their skill set via their portfolio on web2 platforms like GitHub, Behance, Stackoverflow, etc, they can do so now via Plurality.
+Every person on a web3 gig platform who needs a way to showcase their skillset using their portfolios on web2 platforms like GitHub, Behance, Stackoverflow, etc can now verifiably link these with their wallet via Plurality.
 
-The gig platforms can customize their listings with relevant gigs or employers.
+The gig platforms in turn can also enhance their employer-employee matching algorithm using this contextual information about users ' skills.&#x20;
 
 {% hint style="info" %}
-Example platforms where data for this feature could be fetched: LinkedIn, GitHub, Stackoverflow, Reddit, Medium, Behance, Vercel etc.
+Example platforms where data for this feature could be fetched: LinkedIn, GitHub, Stackoverflow, Reddit, Medium, Behance, Vercel, etc.
 {% endhint %}
