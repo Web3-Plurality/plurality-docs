@@ -28,7 +28,7 @@ To see how to integrate the Plurality widget in any dApp, visit the [developer d
 
 ## Data Sovereignty
 
-Plurality allows users to gain control of their data and utilize their data the way they want. Users control when and how their data is used on web3 dApps. Moreover, they can also monetize this data if they want.
+Plurality allows users to gain control of their data and utilize their data the way they want. Users control when and how their data is used on web3 dApps.&#x20;
 
 {% hint style="info" %}
 To see it in action, create your web3 account by visiting the [dashboard](https://app.plurality.network)
