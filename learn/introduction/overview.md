@@ -33,7 +33,7 @@ The difficulty in onboarding and lack of personalization leads to a bad user exp
 
 ## Enter a new era of better UX with Plurality
 
-Plurality aims to solve this problem by enabling users to not only easily onboard to web3 platforms, but also link their personality characteristics with their wallet, to be used if, when, and how they want.
+Plurality aims to solve this problem by enabling users to not only easily onboard to web3 platforms, but also link their personality characteristics with their wallet through creation of smart profiles, to be used if, when, and how they want.
 
 <div align="center">
 
@@ -41,7 +41,7 @@ Plurality aims to solve this problem by enabling users to not only easily onboar
 
 </div>
 
-Such a stack will not only benefit dApps by enabling them to provide a better user experience, but it will also benefit users by giving them easy onboarding, personalized experience, and sovereignty over their data.
+Such a stack will not only benefit dApps by enabling them to provide a better user experience, but it will also benefit users by giving them easy onboarding, personalized experience, and sovereignty over where their profiles are connected containing which data.
 
 Plurality’s tech stack is the first of its kind, and it inverts the data storage and usage triangle, by moving the state from the server-side to the client-side. This inversion will bring users back in control by letting them control when and how their data is shared.
 
@@ -53,7 +53,7 @@ Plurality’s tech stack is the first of its kind, and it inverts the data stora
 
 Plurality inverts the triangle where data is stored and used.
 
-> We need people, not addresses on chain
+> We need people, not addresses on chain.&#x20;
 
 Once "people" exist on chain rather than just wallets the whole ecosystem will grow leading to a new era of blockchain adoption.
 
