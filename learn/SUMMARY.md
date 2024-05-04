@@ -24,8 +24,8 @@
   * [🎭 Personalization](usecases/use-cases-enabled-through-social-context-layer/personalization.md)
   * [🥅 Profile Gating](usecases/use-cases-enabled-through-social-context-layer/profile-gating.md)
   * [📔 DAO Governance](usecases/use-cases-enabled-through-social-context-layer/dao-governance.md)
-  * [👷 Relevant jobs on gig platforms](usecases/use-cases-enabled-through-social-context-layer/relevant-jobs-on-gig-platforms.md)
   * [🙆‍♂️ Sybil Resistance](usecases/use-cases-enabled-through-social-context-layer/sybil-resistance.md)
+  * [👷 Interoperability](usecases/use-cases-enabled-through-social-context-layer/interoperability.md)
   * [🎮 Web3 Gaming](usecases/use-cases-enabled-through-social-context-layer/web3-gaming.md)
 
 ## Protocol overview
