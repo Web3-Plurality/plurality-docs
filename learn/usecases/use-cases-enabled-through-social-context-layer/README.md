@@ -15,7 +15,7 @@ Some of the plurality use cases are:
 1. [Easy Login](easy-login.md)
 2. [Personalization](personalization.md)
 3. [Profile Gating](https://docs.plurality.network/usecases/use-cases-enabled-through-social-context-layer/profile-gating)
-4. DAO Governance
+4. [DAO Governance](https://docs.plurality.network/usecases/use-cases-enabled-through-social-context-layer/dao-governance)
 5. [Sybil Resistance](sybil-resistance.md)
 6. Interoperability
 7. Unified Gaming Assets
