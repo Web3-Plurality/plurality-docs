@@ -1,19 +1,12 @@
 # 📔 DAO Governance
 
-Decentralized Autonomous Organizations (DAOs) are meant to organizations where anyone, with the right credentials, can join and vote on the betterment of DAO.&#x20;
+Decentralized Autonomous Organizations (DAOs) are meant to be organizations where anyone, with the right credentials, can join and vote on the initiatives taken by the DAO.&#x20;
 
+Right now, the decision to add new DAO members is done by existing DAO members by manually vetting the person who wants to join. This has two problems:
 
+1. This doesn't scale. Manual vetting for a few people is possible but if you really want a DAO to have thousands or more members, then this process becomes very cumbersome and unable to scale
+2. Human bias becomes a part of the DAO members selection and people prefer people who they personally know. Therefore, a lot of times, it is said that the decisions of a DAO can be taken within a room. This is antithesis to the concept of a DAO.
 
+With Plurality, DAO can use profiles to check the relevant data points necessary to add someone into a DAO. This process can be automated as well.
 
-
-\----TBA
-
-Normally, when a user lands for the first time on any platform, it takes some time to build up their interests and community on that platform. Until then, content recommendations cannot be given unless the user tells themselves what they want to see.&#x20;
-
-However, Plurality provides a way to circumvent this problem by putting data under the user's control. Wherever the users go, their data goes with them.&#x20;
-
-Therefore, content recommendations can start from day 1 of joining any web3 platform enabled through the data generated on other web2 platforms that are now under the user's jurisdiction.
-
-{% hint style="info" %}
-Example platforms where data for this feature could be fetched: potentially all platforms operating in a similar domain as the dApp.
-{% endhint %}
+When a person wants to join a DAO, they can connect their relevant profile and the DAO program can check if they meet the requirements. Let's consider a medical science DAO, the data points to decide whether the person should be allowed to become the DAO member could be, "Interested in Cancer Research", "Follows UNICEF on twitter", "Works in the medical field", "Previous member of another DeSci DAO" etc.&#x20;
