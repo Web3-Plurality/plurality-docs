@@ -14,12 +14,6 @@ But, token gating has certain limitations:
 2. NFTs can be transferred to other wallets, which might not be suitable for all use cases.
 3. SBTs are permanent and transparent. User might not want to keep this information in their wallet forever.
 
+Plurality provides a newer, more private, cheaper way to enforce access control conditions and that is through profiles.
 
-
-Whenever you land on a web2 marketplace like Amazon, eBay, Ali Express, etc, the first items you view are recommended items relevant to your purchase history.
-
-This does not happen on web3 platforms like NFT Marketplaces. With Plurality, marketplaces can get access to data with insights about what products users might be interested in and they can sort and filter their first page listings according to user's interests.
-
-{% hint style="info" %}
-Example web2 platforms where data for this feature could be fetched: Amazon, eBay, AliExpress, Etsy, Target, BestBuy, HomeDepot, and IKEA. The dApp can opt for only those platforms that are selling similar products as the dApp.  &#x20;
-{% endhint %}
+When a user connects their profile to a certain dapp, it can see the information in the profile and can use that info to access control accordingly without ever having to do a transaction on chain. User's profiles cannot be transferred to other wallets and this data is also secure with the user so this is a much more efficient way of doing access control, &#x20;
