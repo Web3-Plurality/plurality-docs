@@ -14,7 +14,7 @@
 ## Explorer
 
 * [🔍 Blockchain explorers](explorer/blockchain-explorers.md)
-* [🦸 User data explorer](explorer/user-data-explorer.md)
+* [🦸 Profiles explorer](explorer/profiles-explorer.md)
 
 ***
 
