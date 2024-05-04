@@ -1,5 +1,7 @@
-# ⛓ Supported networks
+# ⛓️ Supported networks
 
-Currently, the zero-knowledge transactions are sent to `Ethereum's Sepolia Test Network`
+{% hint style="warning" %}
+Plurality is currently in beta. Please do not use it in production.
+{% endhint %}
 
-Support for more EVM-Compatible chains is on the roadmap.
+Plurality supports EVM-Compatible chains.
