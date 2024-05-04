@@ -13,10 +13,11 @@ If your dApp idea is not on this list, [contact us](../../contact-us.md) via you
 Some of the plurality use cases are:
 
 1. [Easy Login](easy-login.md)
-2. [Social feed personalization](personalization.md)
-3. [Personalized Marketplace listings](marketplace-listings.md)
-4. [Content Recommendations](content-recommendations.md)
-5. [Relevant jobs on gig platforms](relevant-jobs-on-gig-platforms.md)
-6.
-7. [Sybil Resistance](sybil-resistance.md)
-8. [Web3 Gaming](web3-gaming.md)
+2. [Personalization](personalization.md)
+3. [Sybil Resistance](sybil-resistance.md)
+4. [Personalized Marketplace listings](marketplace-listings.md)
+5. [Content Recommendations](content-recommendations.md)
+6. [Relevant jobs on gig platforms](relevant-jobs-on-gig-platforms.md)
+7.
+8.
+9. [Web3 Gaming](web3-gaming.md)
