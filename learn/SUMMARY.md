@@ -26,7 +26,7 @@
   * [📔 DAO Governance](usecases/use-cases-enabled-through-social-context-layer/dao-governance.md)
   * [🙆‍♂️ Sybil Resistance](usecases/use-cases-enabled-through-social-context-layer/sybil-resistance.md)
   * [👷 Interoperability](usecases/use-cases-enabled-through-social-context-layer/interoperability.md)
-  * [🎮 Web3 Gaming](usecases/use-cases-enabled-through-social-context-layer/web3-gaming.md)
+  * [🎮 Unified Metaverse Assets](usecases/use-cases-enabled-through-social-context-layer/unified-metaverse-assets.md)
 
 ## Protocol overview
 
