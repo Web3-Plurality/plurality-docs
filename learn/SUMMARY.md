@@ -20,11 +20,11 @@
 ## Usecases
 
 * [🤝 Use cases enabled through Social Context Layer](usecases/use-cases-enabled-through-social-context-layer/README.md)
+  * [🔏 Easy login](usecases/use-cases-enabled-through-social-context-layer/easy-login.md)
   * [🎭 Social feed personalization](usecases/use-cases-enabled-through-social-context-layer/social-feed-personalization.md)
   * [📑 Marketplace listings](usecases/use-cases-enabled-through-social-context-layer/marketplace-listings.md)
   * [📺 Content recommendations](usecases/use-cases-enabled-through-social-context-layer/content-recommendations.md)
   * [👷 Relevant jobs on gig platforms](usecases/use-cases-enabled-through-social-context-layer/relevant-jobs-on-gig-platforms.md)
-  * [🔏 Easy login](usecases/use-cases-enabled-through-social-context-layer/easy-login.md)
   * [🙆‍♂️ Sybil Resistance](usecases/use-cases-enabled-through-social-context-layer/sybil-resistance.md)
   * [🎮 Web3 Gaming](usecases/use-cases-enabled-through-social-context-layer/web3-gaming.md)
 
