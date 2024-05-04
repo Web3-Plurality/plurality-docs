@@ -22,7 +22,7 @@
 * [🤝 Use cases enabled through Social Context Layer](usecases/use-cases-enabled-through-social-context-layer/README.md)
   * [🔏 Easy login](usecases/use-cases-enabled-through-social-context-layer/easy-login.md)
   * [🎭 Personalization](usecases/use-cases-enabled-through-social-context-layer/personalization.md)
-  * [📑 Marketplace listings](usecases/use-cases-enabled-through-social-context-layer/marketplace-listings.md)
+  * [📑 Profile Gating](usecases/use-cases-enabled-through-social-context-layer/profile-gating.md)
   * [📺 Content recommendations](usecases/use-cases-enabled-through-social-context-layer/content-recommendations.md)
   * [👷 Relevant jobs on gig platforms](usecases/use-cases-enabled-through-social-context-layer/relevant-jobs-on-gig-platforms.md)
   * [🙆‍♂️ Sybil Resistance](usecases/use-cases-enabled-through-social-context-layer/sybil-resistance.md)

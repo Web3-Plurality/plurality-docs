@@ -14,10 +14,8 @@ Some of the plurality use cases are:
 
 1. [Easy Login](easy-login.md)
 2. [Personalization](personalization.md)
-3. [Sybil Resistance](sybil-resistance.md)
-4. [Personalized Marketplace listings](marketplace-listings.md)
-5. [Content Recommendations](content-recommendations.md)
-6. [Relevant jobs on gig platforms](relevant-jobs-on-gig-platforms.md)
-7.
-8.
-9. [Web3 Gaming](web3-gaming.md)
+3. Profile Gating
+4. DAO Governance
+5. [Sybil Resistance](sybil-resistance.md)
+6. Interoperability
+7. Unified Gaming Assets
