@@ -16,7 +16,6 @@
 * [🌍 Web3 Challenges](concepts/web3-challenges.md)
 * [🔐 Web3 Data and Login](concepts/web3-data-and-login.md)
 * [📂 Data Ownership](concepts/data-ownership.md)
-* [🤑 Data Economy](concepts/data-economy.md)
 
 ## Usecases
 
