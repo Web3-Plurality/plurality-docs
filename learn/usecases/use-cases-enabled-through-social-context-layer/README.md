@@ -18,4 +18,4 @@ Some of the plurality use cases are:
 4. [DAO Governance](https://docs.plurality.network/usecases/use-cases-enabled-through-social-context-layer/dao-governance)
 5. [Sybil Resistance](sybil-resistance.md)
 6. [Interoperability](https://docs.plurality.network/usecases/use-cases-enabled-through-social-context-layer/interoperability)
-7. Unified Metaverse Assets
+7. [Unified Metaverse Assets](https://docs.plurality.network/usecases/use-cases-enabled-through-social-context-layer/unified-metaverse-assets)
