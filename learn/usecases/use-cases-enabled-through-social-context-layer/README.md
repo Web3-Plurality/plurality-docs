@@ -1,13 +1,8 @@
-# 🤝 How Plurality can help dApps?
+# 🤝 Use cases enabled through Social Context Layer
 
-Plurality enables dApps to provide their users with a better user experience, lowering the user churn rate and increasing the user retention rate.&#x20;
+Plurality's open social context layer contains portable contexts against a wallet address. It allows creation of interoperable, self-custodial smart profiles against a user's wallet address. The context is aggregated from various web2 and web3 platforms.&#x20;
 
-Plurality does this by enabling:
-
-1. Easier login processes
-2. Access to contextual web2 data which can improve the user workflows on dApp
-
-Plurality is a perfect fit for many use cases, some of which have not been developed yet.&#x20;
+On top of open social context layer, many different use cases can be developed.&#x20;
 
 This section discusses a few use cases where plurality could be used, but don't let this hinder your creativity.&#x20;
 
