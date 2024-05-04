@@ -1,4 +1,8 @@
-# 🏗 Build your first dApp with plurality
+# 🏗️ Build your first dApp with plurality
+
+{% hint style="warning" %}
+Plurality is currently in beta. Please do not use it in production.
+{% endhint %}
 
 We will create our first dApp that uses Plurality using React framework with typescript.
 
