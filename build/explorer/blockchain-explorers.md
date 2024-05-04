@@ -1,3 +1,3 @@
 # 🔍 Blockchain explorers
 
-The currently supported explorer for viewing details of blockchain transactions is: [https://sepolia.etherscan.io/](https://sepolia.etherscan.io/)
+For creating profiles, no blockchain transactions are done. In the future, support for on-chain points and zero-knowledge proofs will be added.
