@@ -4,12 +4,12 @@
 
 ## Quickstart
 
-* [🏗 Build your first dApp with plurality](quickstart/build-your-first-dapp-with-plurality.md)
+* [🏗️ Build your first dApp with plurality](quickstart/build-your-first-dapp-with-plurality.md)
 
 ## Development Guide
 
 * [🌐 Supported web platforms](development-guide/supported-web-platforms.md)
-* [⛓ Supported networks](development-guide/supported-networks.md)
+* [⛓️ Supported networks](development-guide/supported-networks.md)
 
 ## Explorer
 
@@ -18,4 +18,4 @@
 
 ***
 
-* [☎ Contact us](contact-us.md)
+* [☎️ Contact us](contact-us.md)
