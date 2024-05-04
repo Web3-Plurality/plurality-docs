@@ -1,4 +1,12 @@
-# 📺 Content recommendations
+# 📔 DAO Governance
+
+Decentralized Autonomous Organizations (DAOs) are meant to organizations where anyone, with the right credentials, can join and vote on the betterment of DAO.&#x20;
+
+
+
+
+
+\----TBA
 
 Normally, when a user lands for the first time on any platform, it takes some time to build up their interests and community on that platform. Until then, content recommendations cannot be given unless the user tells themselves what they want to see.&#x20;
 

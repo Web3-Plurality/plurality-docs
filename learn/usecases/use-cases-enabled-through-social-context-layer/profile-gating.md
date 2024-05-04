@@ -2,7 +2,7 @@
 description: Profile gating is the first gasless token gating experience
 ---
 
-# 📑 Profile Gating
+# 🥅 Profile Gating
 
 Plurality's smart profiles can be used for access control on dApps in ways that have not been possible before.
 
