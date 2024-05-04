@@ -36,13 +36,13 @@ A balance between easy onboarding and true ownership of users is the key to crea
 
 If the user loses the seed phrase, it is impossible to recover the wallet unless the user sets up some form of wallet recovery mechanism. Setting up a recovery mechanism also involves complicated setups like multi-sig, storing in software like KeePass, or getting a hardware wallet and setting up with a pin. Again, an easier wallet recovery option (that does not delegate the ownership of the wallet to someone else) is required for a balance between user experience and true wallet ownership.&#x20;
 
-### Lack of personalized experience
+### Lack of Context
 
 Until now, the data being stored against a wallet is mostly financial like buying/selling tokens & NFTs.&#x20;
 
 > Web3 wallets are nothing more than a bank account for now
 
-However, if we compare this behavior with web2 platforms, we can see that there is a lot more information about the user stored against the user profiles. Using this data, the platforms provide a personalized experience to the user. For example:
+However, if we compare this behavior with web2 platforms, we can see that there is a lot more context about the user stored against the user profiles. Using this context, the platforms provide a personalized experience to the user. For example:
 
 1. If a user regularly listens to songs from a certain artist, they will see suggestions of more songs from that same artist
 2. If a user has done projects in Typescript, they will see more gigs related to Typescript
@@ -62,9 +62,9 @@ But this is a cyclical problem, also known as the _Cold Start Problem._&#x20;
 
 Platforms cannot provide a good experience without users using the platform. And users would not use the platform unless there is a good experience.  And this is one of the biggest challenges of web3 dApps right now.&#x20;
 
-One approach to handle this would be to reuse the data from the user's web2 profiles, which is what Plurality aims to do.&#x20;
+One approach to handle this would be to create reusable and portable contexts that could be taken to any dApp on any blockchain, which is what Plurality aims to do.&#x20;
 
-### Lack of community
+### Lack of Network Effects
 
 Platforms grow with communities and network effects. However, communities cannot be formed unless it is known what a certain user is interested in.&#x20;
 
