@@ -37,3 +37,5 @@ The interests of a person can be extracted from the type of consumed content. So
 7. Channels joined on Discord
 
 etc.
+
+Overall, for any platform to reduce noise and curate user experiences, both the reputation and interests need to be taken into account.
