@@ -10,8 +10,6 @@ Later on, as technology progressed, the Internet became more interactive and one
 
 Since users can create content on Web2, therefore, a huge amount of data is created every day and stored in centralized databases.&#x20;
 
-Every time a user goes to the internet and spends time on various platforms, every click and every action is tracked and recorded. This data is scattered across the internet amongst various platform's databases and is collectively referred to as the web2 data.&#x20;
+Every time a user goes to the internet and spends time on various platforms, every click and every action is tracked and recorded. Some of this data is collected by the platform where you are interacting. Other times, the data is being stored in cookies which are stored in your browsers and are collecting behavioural data.&#x20;
 
-####
-
-##
+The data from third-party cookies is also shared with other websites. Overall, data is scattered across the internet amongst various platform's databases and is collectively referred to as the web2 data.&#x20;
