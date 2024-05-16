@@ -37,7 +37,7 @@ Blockchain networks, also known as web3, were created as a more user-oriented ve
 
 However, despite its notable advantages, web3 platforms have until now largely been unable to retain users and provide them with an experience comparable to web2.
 
-## Web3's weak spot: _User Experience_
+## Web3's weak spot: User Experience
 
 Today, when a user lands on a certain dApp, they must first go through complicated wallet creation processes and even after this hassle, the experience they get on the dApp is full of noise. Users have to make an active effort to discover content they want as there is no personalization in user experience.&#x20;
 
