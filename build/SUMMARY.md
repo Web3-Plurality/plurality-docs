@@ -4,7 +4,8 @@
 
 ## Quickstart
 
-* [🏗️ Build your first dApp with plurality](quickstart/build-your-first-dapp-with-plurality.md)
+* [🏗️ Build your first dApp with plurality](quickstart/build-your-first-dapp-with-plurality/README.md)
+  * [Using web3 functions through Social Connect](quickstart/build-your-first-dapp-with-plurality/using-web3-functions-through-social-connect.md)
 
 ## Development Guide
 
