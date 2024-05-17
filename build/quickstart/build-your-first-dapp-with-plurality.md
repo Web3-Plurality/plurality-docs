@@ -18,34 +18,40 @@ npx create-react-app plurality-dapp --template typescript
 3. Install the plurality widget using the following command
 
 ```bash
-npm i plurality-repconnect-widget
+npm i plurality-social-connect
 ```
 
 4. Go to src/ folder and create a new file declaration.d.ts with the following single line (Note: this step would resolve once a new package update with types comes out):
 
 ```bash
-declare module 'plurality-repconnect-widget';
+declare module 'plurality-social-connect';
 ```
 
 5. Now open App.tsx file and replace the contents with the following code block
 
 ```typescript
-import PluralityPopupWidget from 'plurality-repconnect-widget';
+import PluralitySocialConnect from 'plurality-social-connect';
+import { useRef } from 'react';
 
-function App() {
+const App = () => {
+    const childRef: any = useRef(null);
     // Handle the data returned from the widget
-    const handleDataReturned = (data: any) => {
-        console.log('Received data from widget:', data);
+    const handleDataReturned = (data) => {
+        const receivedData = JSON.parse(JSON.stringify(data))
+        console.log("dapp receives:", receivedData);
+        childRef.current.closeSocialConnectPopup();
         // Handle the received data in the external webpage
         // ... (perform actions with the received data)
     };
 
     return (
         <div>
-            <PluralityPopupWidget
+            <PluralitySocialConnect
                 options={{ apps: 'facebook,twitter' }}
                 onDataReturned={handleDataReturned}
-                customization={{ height: '50px', width: '150px'}} //optional
+                // all customization params are optional
+                // customization={{ height: '200px', width: '500px', initialBackgroundColor: '#E8A123', initialTextColor: '#FFFFFF', flipBackgroundColor: '#12AE83', flipTextColor: '#FFFFFF'}}
+                ref={childRef}
             />
         </div>
     );
