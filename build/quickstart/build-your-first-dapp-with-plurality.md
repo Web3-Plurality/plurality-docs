@@ -6,7 +6,9 @@ Plurality is currently in beta. Please do not use it in production.
 
 We will create our first dApp that uses Plurality using React framework with typescript.
 
-
+{% hint style="info" %}
+Want to jump directly to code? Checkout final code on [Git](https://github.com/Web3-Plurality/demo-application)
+{% endhint %}
 
 1. Create a react project with Typescript
 
