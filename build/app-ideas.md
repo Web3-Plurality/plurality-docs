@@ -1,4 +1,6 @@
-# Development Ideas
+# 💡 App Ideas
+
+
 
 <figure><img src=".gitbook/assets/HacknHeights_SocialOnline1080x1080_C1V1.jpg" alt="" width="563"><figcaption></figcaption></figure>
 

@@ -10,7 +10,7 @@
 
 ***
 
-* [Development Ideas](development-ideas.md)
+* [💡 App Ideas](app-ideas.md)
 
 ## Development Guide
 
