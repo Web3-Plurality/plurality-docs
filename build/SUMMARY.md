@@ -8,6 +8,10 @@
   * [Using web3 functions through Social Connect](quickstart/build-your-first-dapp-with-plurality/using-web3-functions-through-social-connect.md)
   * [Customizing the UI](quickstart/build-your-first-dapp-with-plurality/customizing-the-ui.md)
 
+***
+
+* [Development Ideas](development-ideas.md)
+
 ## Development Guide
 
 * [🌐 Supported web platforms](development-guide/supported-web-platforms.md)
