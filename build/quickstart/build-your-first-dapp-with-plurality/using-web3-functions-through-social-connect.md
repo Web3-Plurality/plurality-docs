@@ -2,6 +2,10 @@
 
 Since the Metamask gets connected to the social connect, all web3 calls also need to be done through the social connect. You can use the following functions to call the blockchain layer:
 
+{% hint style="info" %}
+Want to jump directly to code? Checkout final code on [Git](https://github.com/Web3-Plurality/demo-application)
+{% endhint %}
+
 #### Get All Connected Accounts
 
 Returns all accounts that have been connected through the social connect
