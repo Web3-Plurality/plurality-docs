@@ -14,13 +14,21 @@ Here are some ideas of what you can do, but don’t get your creativity limited 
 
 Along with basic bio information, Plurality gives you interests of the user. Use these to show recommendations, reduce noise and improve the overall experience of the user
 
-### **Use user’s profile information to gate access to certain actions:**&#x20;
+### **Use user’s profile information to gate access to certain actions**&#x20;
 
 Allow or disallow users to make certain actions on your dApp based on their profile information
+
+### **Use user's profile info and interests to get membership to a group or DAO**
+
+Not everyone is a fit for every group. Decide who to make a member of your DAO based on their interests or other profile information
 
 ### **Combine on-chain and off-chain data for smart actions**
 
 You can get user interests from Social connect of a certain wallet address, combine this with subgraphs to get more data points about a wallet address.
+
+### **Create Profile Proofs (on-chain Zero knowledge proof) to prove a fact about a certain wallet**
+
+Want to prove a certain fact about a wallet address without posting their data on chain? How about integrating a ZKP layer for this. You can try either [Semaphore](https://docs.semaphore.pse.dev/) or some other tool.
 
 ### **Livepeer integration**&#x20;
 
