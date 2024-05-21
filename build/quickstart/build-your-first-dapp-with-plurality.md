@@ -41,6 +41,7 @@ const App = () => {
     const handleDataReturned = (data) => {
         const receivedData = JSON.parse(JSON.stringify(data))
         console.log("dapp receives:", receivedData);
+        alert(JSON.stringify(receivedData));
         childRef.current.closeSocialConnectPopup();
         // Handle the received data in the external webpage
         // ... (perform actions with the received data)
