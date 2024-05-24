@@ -1,3 +1,7 @@
+---
+description: ...
+---
+
 # 🏗️ Build your first dApp with plurality
 
 {% hint style="warning" %}
@@ -37,21 +41,19 @@ import { useRef } from 'react';
 
 const App = () => {
     const childRef: any = useRef(null);
-    // Handle the data returned from the widget
-    const handleDataReturned = (data) => {
+    // Profile data handle
+    const handleProfileDataReturned = (data) => {
         const receivedData = JSON.parse(JSON.stringify(data))
-        console.log("dapp receives:", receivedData);
-        alert(JSON.stringify(receivedData));
+        console.log("Get profile data:", receivedData);
+        alert(JSON.stringify(data));
         childRef.current.closeSocialConnectPopup();
-        // Handle the received data in the external webpage
-        // ... (perform actions with the received data)
     };
 
     return (
         <div>
             <PluralitySocialConnect
                 options={{ apps: 'facebook,twitter' }}
-                onDataReturned={handleDataReturned}
+                onProfileDataReturned={handleProfileDataReturned}
                 // all customization params are optional
                 // customization={{ height: '200px', width: '500px', initialBackgroundColor: '#E8A123', initialTextColor: '#FFFFFF', flipBackgroundColor: '#12AE83', flipTextColor: '#FFFFFF'}}
                 ref={childRef}
