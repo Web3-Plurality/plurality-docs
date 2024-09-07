@@ -1,10 +1,10 @@
 ---
-description: The Open Social Context Layer for the Internet
+description: The Open Context Layer for the Internet
 ---
 
 # 👋 Plurality
 
-> urality is creating an open social context layer for the internet. Using plurality, users can create interoperable, self-custodial profiles (known as Smart Profiles) that are pluggable on any platform across any blockchain. \
+> Plurality is creating an open social context layer for the internet. Using plurality, users can create interoperable, self-custodial profiles (known as Smart Profiles) that are pluggable on any platform across any blockchain. \
 > \
 > Plurality's smart profiles help apps elevate engagement, boost retention, and create lasting connections as they harness the power of open social context containing user's interests, skills and preferences.
 
