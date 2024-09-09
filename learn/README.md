@@ -1,5 +1,16 @@
 ---
 description: The Open Context Layer for the Internet
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 👋 Plurality
