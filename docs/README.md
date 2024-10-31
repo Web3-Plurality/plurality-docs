@@ -8,12 +8,33 @@ description: >-
 
 # Overview
 
-ality is a layer 3 focused on improving key user experience friction points on web3 platforms that lead to an onboarding and retention crisis in web3. Plurality Network solves this through its novel techniques, which are:
+Plurality is a layer 3 focused on improving key user experience friction points on web3 platforms that lead to an onboarding and retention crisis in web3. Plurality Network solves this through its novel techniques, which are:
 
-1. **Wallet and Chain Abstraction:** Users should not have to worry about wallets, seed phrases, chains, tokens, gas, etc.&#x20;
-2. **Data and Liquidity Aggregation:** Data from across the web and liquidity from across the chains is aggregated, reducing fragmentation and enabling the foundations for frictionless interactions between a platform and a user
-3. **Making Profile the unit of interaction:** Profiles are the new unit of interaction with a platform instead of a wallet, leading to familiar login workflow and personalized experiences for users&#x20;
-4. **Open Social Graph:** Each profile has an attached social graph that can reduce cold start on dApps and improve network effects
+{% stepper %}
+{% step %}
+### Wallet and Chain Abstraction
+
+Users should not have to worry about wallets, seed phrases, chains, tokens, gas, etc.&#x20;
+{% endstep %}
+
+{% step %}
+### Data and Liquidity Aggregation
+
+Data from across the web and liquidity from across the chains is aggregated, reducing fragmentation and enabling the foundations for frictionless interactions between a platform and a user
+{% endstep %}
+
+{% step %}
+### Making [<mark style="color:purple;">Profile</mark> ](what-is-plurality-network/smart-profiles.md)the Unit of Interaction
+
+Profiles are the new unit of interaction with a platform instead of a wallet, leading to familiar login workflow and personalized experiences for users&#x20;
+{% endstep %}
+
+{% step %}
+### Open Social Graph
+
+Each profile has an attached social graph that can reduce cold start on dApps and improve network effects
+{% endstep %}
+{% endstepper %}
 
 Plurality is the next revolution in web3 user experience, providing frictionless and personalized experiences for end users that in turn help apps elevate engagement, boost retention, and create lasting connections as they harness the power of smart profiles.
 
