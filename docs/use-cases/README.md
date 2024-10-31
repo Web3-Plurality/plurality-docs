@@ -1,3 +1,7 @@
+---
+icon: puzzle
+---
+
 # Use Cases
 
 Using Plurality Network, multiple use cases can be created that were not possible before
