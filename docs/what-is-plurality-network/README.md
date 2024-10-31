@@ -20,6 +20,10 @@ Plurality Network is bringing forth new revolutionary concepts that not only mak
 
 We are building the blocks of a user-centric and accessible web3, created for everyday people who want to use platforms on the internet to get value and entertainment instead of getting bogged down by unnecessary friction.
 
+{% hint style="info" %}
+More of a visual learner? Go directly to [videos](./#more-of-a-visual-learner) to grab the concept through video sessions
+{% endhint %}
+
 ## Motivations behind Plurality Network
 
 To understand the motivation behind plurality, we have to first discuss the current problems of the internet. &#x20;
@@ -110,9 +114,29 @@ By abstracting away all the complexities and providing users with an easy “pro
 
 That’s the vision for Plurality.
 
-\
-Learn more about Plurality Network here.\
-\<Insert videos here>
+## More of a visual learner?
+
+Learn more about Plurality Network through these talks.
+
+{% embed url="https://www.youtube.com/watch?v=OsY02T1dM2U" %}
+Web3 Summit
+{% endembed %}
+
+
+
+{% embed url="https://youtu.be/QUm909X56Qw" %}
+Berlin Ethereum Meetup
+{% endembed %}
+
+
+
+{% embed url="https://www.linkedin.com/posts/tatumio_bananaconf-web3-blockchain-activity-7188586863807348736-bCw1?utm_medium=member_desktop&utm_source=share" %}
+Short interview in Bananaconf
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=EwmE1wg5XXY" %}
+
+
 
 \
 \
