@@ -17,6 +17,10 @@ ality is a layer 3 focused on improving key user experience friction points on w
 
 Plurality is the next revolution in web3 user experience, providing frictionless and personalized experiences for end users that in turn help apps elevate engagement, boost retention, and create lasting connections as they harness the power of smart profiles.
 
+{% hint style="info" %}
+More of a visual learner? Grab some popcorns and watch these [sessions](what-is-plurality-network/#more-of-a-visual-learner) to get the bird's eye view of what's it all about
+{% endhint %}
+
 ## Quickstart
 
 New to Plurality? Start here!
