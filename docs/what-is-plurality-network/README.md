@@ -119,13 +119,13 @@ That’s the vision for Plurality.
 Learn more about Plurality Network through these talks.
 
 {% embed url="https://www.youtube.com/watch?v=OsY02T1dM2U" %}
-Web3 Summit
+Session in Web3 Summit
 {% endembed %}
 
 
 
 {% embed url="https://youtu.be/QUm909X56Qw" %}
-Berlin Ethereum Meetup
+Session in Berlin Ethereum Meetup
 {% endembed %}
 
 
@@ -135,8 +135,7 @@ Short interview in Bananaconf
 {% endembed %}
 
 {% embed url="https://www.youtube.com/watch?v=EwmE1wg5XXY" %}
+Session in Bananaconf
+{% endembed %}
 
-
-
-\
 \
