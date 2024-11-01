@@ -24,6 +24,7 @@
   * [Profile Gating](use-cases/profile-gating.md)
   * [DAO Governance](use-cases/dao-governance.md)
   * [Sybil Resistance](use-cases/sybil-resistance.md)
+  * [Airdrop Whitelisting](use-cases/airdrop-whitelisting.md)
   * [Interoperability](use-cases/interoperability.md)
   * [Proof of Social Reputation](use-cases/proof-of-social-reputation.md)
   * [Cross Platform Experiences](use-cases/cross-platform-experiences.md)
