@@ -24,7 +24,7 @@
   * [Data Ownership](concepts/data-ownership.md)
 * [Use Cases](use-cases/README.md)
   * [Easy Login](use-cases/easy-login.md)
-  * [Gaming Reputation](use-cases/gaming-reputation.md)
+  * [Universal Reputation](use-cases/universal-reputation.md)
   * [Social Communities](use-cases/social-communities.md)
   * [Personalization](use-cases/personalization.md)
   * [Profile Gating](use-cases/profile-gating.md)
