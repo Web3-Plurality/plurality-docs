@@ -4,7 +4,7 @@ We have been talking about a Smart Profile quite a lot, but what exactly is it a
 
 ## What is a Smart Profile?
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Aggregated Context from Web2 and Web3 Platforms</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Aggregated Context from Web2 and Web3 Platforms</p></figcaption></figure>
 
 Once Alice creates these profiles, they get cryptographically linked to her chain-agnostic wallet that she can then use on any platform on any blockchain.&#x20;
 
