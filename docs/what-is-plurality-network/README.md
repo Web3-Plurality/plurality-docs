@@ -10,11 +10,37 @@ Plurality Network is a layer 3 enabling the next generation of user experience o
 
 Plurality does this through several novel techniques including:
 
-1. <mark style="color:purple;">**Wallet and Chain abstraction to hide the complexities from the end user.**</mark> Users can create wallets through their email or socials without knowing there is a wallet or chain in the backend.&#x20;
-2. <mark style="color:purple;">**Data aggregation from platforms where the user already has a digital footprint.**</mark> This data provides the foundations for privacy-preserving yet personalized experiences on the web.&#x20;
-3. <mark style="color:purple;">**Liquidity aggregation to aggregate user’s assets across different chains**</mark> and use them anywhere. This sets the foundations for being able to use any token for paying transaction fees, essentially abstracting away “gas” from the end user
-4. <mark style="color:purple;">**Smart Profiles that are interoperable, self-custodial, data backpacks**</mark> associated with the user’s wallet, reusable across any platform, subject to user’s consent.&#x20;
-5. <mark style="color:purple;">**An interoperable social graph associated with the profile**</mark>, which the user can utilize wherever they go. This can lead to a new era of cross-chain and cross-platform network effects. &#x20;
+{% stepper %}
+{% step %}
+### Wallet and Chain Abstraction
+
+Wallet and Chain abstraction to hide the complexities from the end user. Users can create wallets through their email or socials without knowing there is a wallet or chain in the backend.&#x20;
+{% endstep %}
+
+{% step %}
+### Data Aggregation
+
+Data aggregation from platforms where the user already has a digital footprint. This data provides the foundations for privacy-preserving yet personalized experiences on the web.&#x20;
+{% endstep %}
+
+{% step %}
+### Liquidity Aggregation
+
+Liquidity aggregation to aggregate user’s assets across different chains and use them anywhere. This sets the foundations for being able to use any token for paying transaction fees, essentially abstracting away “gas” from the end user
+{% endstep %}
+
+{% step %}
+### Smart Profiles
+
+Smart Profiles that are interoperable, self-custodial, data backpacks associated with the user’s wallet, reusable across any platform, subject to user’s consent.&#x20;
+{% endstep %}
+
+{% step %}
+### Social Graph
+
+An interoperable social graph associated with the profile, which the user can utilize wherever they go. This can lead to a new era of cross-chain and cross-platform network effects.  &#x20;
+{% endstep %}
+{% endstepper %}
 
 Plurality Network is bringing forth new revolutionary concepts that not only make the login process for users frictionless but also create a foundation for experiences that can only be created with meaningful data and social graph attached to a wallet, all while respecting users’ consent and privacy.&#x20;
 
