@@ -28,6 +28,12 @@ Profiles are the new unit of interaction with a platform instead of a wallet, le
 {% endstep %}
 
 {% step %}
+### Universal Identity and Reputation
+
+Plurality's Smart Profiles can serve as universal identity and reputation mechanism usable on any platform on any blockchain
+{% endstep %}
+
+{% step %}
 ### Open Social Graph
 
 Each profile has an attached social graph that can reduce cold start on dApps and improve network effects
