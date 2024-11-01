@@ -1,10 +1,114 @@
 # Structure of a Smart Profile
 
-A profile schema looks like the following:\
-\
-TODO: <\<image here>>
+A Smart Profile  schema binds together multiple IndividualProfile schemas, where each individual profile represents the data aggregated and processed from one platform&#x20;
+
+## Smart Profile Schema
+
+A smart profile schema looks like the following:\
 
 
+{% tabs %}
+{% tab title="Properties" %}
+* scores :string
+* version :string
+* connected\_platforms :string
+* encrypted\_profile\_data :string
+* profile\_type\_stream\_id :string
+{% endtab %}
+
+{% tab title="JSON Schema" %}
+```json
+{
+  "name": "SmartProfileV1",
+  "schema": {
+    "type": "object",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "properties": {
+      "scores": {
+        "type": "string"
+      },
+      "version": {
+        "type": "string"
+      },
+      "connected_platforms": {
+        "type": "string"
+      },
+      "encrypted_profile_data": {
+        "type": "string"
+      },
+      "profile_type_stream_id": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  },
+  "version": "2.0",
+  "interface": false,
+  "implements": [],
+  "accountRelation": {
+    "type": "list"
+  },
+  "immutableFields": []
+}
+```
+
+
+{% endtab %}
+{% endtabs %}
+
+The model can be seen deployed [here](https://cerscan.com/mainnet/stream/kjzl6hvfrbw6c7hdfsos86ep6bnq1hemddmkklxqdjygvla080r285bcpac7tt7)
+
+## Individual Profile Schema
+
+An individual profile schema looks like the following:
+
+{% tabs %}
+{% tab title="Properties" %}
+* scores :string
+* version :string
+* platform\_name :string
+* encrypted\_profile\_data :string
+{% endtab %}
+
+{% tab title="JSON Schema" %}
+```json
+
+{
+  "name": "IndividualProfileV1",
+  "schema": {
+    "type": "object",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "properties": {
+      "scores": {
+        "type": "string"
+      },
+      "version": {
+        "type": "string"
+      },
+      "platform_name": {
+        "type": "string"
+      },
+      "encrypted_profile_data": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  },
+  "version": "2.0",
+  "interface": false,
+  "implements": [],
+  "accountRelation": {
+    "type": "list"
+  },
+  "immutableFields": []
+}
+```
+
+
+{% endtab %}
+{% endtabs %}
+
+The model can be seen deployed [here](https://cerscan.com/mainnet/stream/kjzl6hvfrbw6cb3yohf2est7xb35wo1r3mtshcqz16f7ymhm7mkwi11pgnx9jgl)
 
 A profile consists of some public content and some private content.&#x20;
 
@@ -41,5 +145,3 @@ The list of things the user has a reputation in. These are the topics that user 
 ### Social Graph
 
 Every profile has an associated interoperable social graph sourced from the network of the profiles that user has connected with this particular smart profile. Moreover, user also has the option of growing the social graph further by connecting to people on-chain as well.
-
-\
