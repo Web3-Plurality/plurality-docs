@@ -42,6 +42,7 @@
 * [Resources and Support](resources-and-support/README.md)
   * [Workshops and Sessions](resources-and-support/workshops-and-sessions.md)
   * [Explorers](resources-and-support/explorers.md)
+  * [Demos](resources-and-support/demos.md)
 * [Ecosystem](ecosystem/README.md)
   * [Apps Marketplace](ecosystem/apps-marketplace.md)
   * [Participate](ecosystem/participate/README.md)
