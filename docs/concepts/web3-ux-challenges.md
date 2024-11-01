@@ -1,8 +1,8 @@
-# Web3 Challenges
+# Web3 UX Challenges
 
 ## Web3 <a href="#web3" id="web3"></a>
 
-We already [discussed ](https://docs.plurality.network/concepts/web2-data-and-login#web1-and-web2)about how Web1 was the static, read-only internet and Web2 is the dynamic, read-and-write internet.
+We discussed previously about how Web1 was the static, read-only internet and Web2 is the dynamic, read-and-write internet.
 
 Web3 is a technological successor to Web2, where not only is it possible to read and write data, but also to _own_ data.
 

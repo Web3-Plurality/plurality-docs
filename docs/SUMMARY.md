@@ -14,7 +14,7 @@
     * [Digital Footprint](concepts/web2-data-and-login/digital-footprint/README.md)
       * [Reputation and Interests](concepts/web2-data-and-login/digital-footprint/reputation-and-interests.md)
     * [Login Mechanism](concepts/web2-data-and-login/login-mechanism.md)
-  * [Web3 Challenges](concepts/web3-challenges.md)
+  * [Web3 UX Challenges](concepts/web3-ux-challenges.md)
   * [Web3 Data and Login](concepts/web3-data-and-login.md)
   * [Data Ownership](concepts/data-ownership.md)
 * [Use Cases](use-cases/README.md)
