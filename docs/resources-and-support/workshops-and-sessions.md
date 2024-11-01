@@ -10,6 +10,12 @@ Web3 Summit Berlin, Aug 2024
 Berlin Ethereum Meetup, May 2024
 {% endembed %}
 
+{% embed url="https://www.youtube.com/watch?v=TmzbsM0n-_k" %}
+The 360 degree idea behind Plurality
+{% endembed %}
+
+
+
 {% embed url="https://www.linkedin.com/posts/tatumio_bananaconf-web3-blockchain-activity-7188586863807348736-bCw1?utm_medium=iframely&utm_source=gitbook" %}
 Short Discussion with Tatum, April 2024
 {% endembed %}
