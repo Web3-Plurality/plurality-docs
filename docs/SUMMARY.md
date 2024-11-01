@@ -34,6 +34,7 @@
   * [Proof of Social Reputation](use-cases/proof-of-social-reputation.md)
   * [Cross Platform Experiences](use-cases/cross-platform-experiences.md)
   * [Engagement and Loyalty](use-cases/engagement-and-loyalty.md)
+  * [Gaming Reputation](use-cases/gaming-reputation.md)
 * [How-to Guides](how-to-guides.md)
 * [Tokenomics](tokenomics.md)
 * [Products](products/README.md)
