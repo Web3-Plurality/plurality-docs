@@ -23,9 +23,11 @@ For example, the explorer for Ethereum would be\
 
 {% embed url="https://etherscan.io/" %}
 
-For Solana, it would be
+For Base, it would be
 
-{% embed url="https://explorer.solana.com/" %}
+{% embed url="https://base.blockscout.com/" %}
+
+
 
 For Polygon, it would be&#x20;
 
