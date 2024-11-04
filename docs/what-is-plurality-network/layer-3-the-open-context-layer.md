@@ -92,7 +92,7 @@ In this way, the Open Context Layer is designed in line with the principles of s
 
 A big chunk of user profiling done on the internet today is through third-party cookies. Ever seen an ad for shoes on a website just after you browsed through some shoes on another e-commerce site? Yes, that’s third-party cookies and are a major backbone of the Ads industry today.&#x20;
 
-However, third-party cookies infringe on user’s privacy and Google has repeatedly expressed concerns over discontinuing it (link it).
+However, third-party cookies infringe on user’s privacy and Google has repeatedly expressed concerns over [discontinuing](https://developers.google.com/privacy-sandbox/blog/3pc-exceptions-update?hl=en) it.
 
 Open Context Layer lays the foundations for decentralized cookies – a user-centric approach to sharing data based on user’s consent (also known as first-party data gathering).
 
