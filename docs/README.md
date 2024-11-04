@@ -6,7 +6,7 @@ icon: telescope
 
 > The L3 unifying data and liquidity across the web, enabling wallet and chain abstraction through interoperable Smart Profiles. Create your profile once, use it on any platform on the internet.
 
-Plurality is a layer 3 focused on improving key UX friction points on web3 platforms that lead to an onboarding and retention crisis in web3. Plurality Network solves this through its novel techniques, which are:
+Plurality is a layer 3 focused on improving key UX friction points on web3 platforms that lead to an onboarding and retention crisis in web3. Plurality Network focuses to solve this by enabling:
 
 {% stepper %}
 {% step %}

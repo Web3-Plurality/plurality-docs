@@ -148,6 +148,10 @@ Learn more about Plurality Network through these talks.
 Session in Web3 Summit
 {% endembed %}
 
+{% embed url="https://www.youtube.com/watch?v=TmzbsM0n-_k" %}
+Podcast about the bigger picture of Plurality Network
+{% endembed %}
+
 
 
 {% embed url="https://youtu.be/QUm909X56Qw" %}
