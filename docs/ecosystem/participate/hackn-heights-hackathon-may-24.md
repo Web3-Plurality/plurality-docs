@@ -74,5 +74,10 @@ Use the reputation scores in the user profile to distinguish between an active u
 
 ## Participants and Winners
 
-TODO: Add participants and winners here
+The demos and details of winners and participants can be viewed in this X thread\
+
+
+{% embed url="https://x.com/PluralityWeb3/status/1801611121683796073" %}
+
+
 
