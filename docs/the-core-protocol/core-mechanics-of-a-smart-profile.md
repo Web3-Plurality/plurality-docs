@@ -6,6 +6,32 @@ We have been talking about a Smart Profile quite a lot, but what exactly is it a
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Aggregated Context from Web2 and Web3 Platforms</p></figcaption></figure>
 
+Smart Profiles are data backpacks that get aggregated from user’s existing profiles and addresses. The data is processed via AI models to extract meaningful insights.&#x20;
+
+Every wallet can have n profiles connected to them representing the different contexts of a person’s digital life. Each profile can source data from n different sources again based on context. To understand the workflow better, let’s follow the journey of Alice and how she can create and use Smart Profiles.&#x20;
+
+> Alice is an engineer who likes to listen to music, read news, watch movies and play games.
+
+For each of the different personas she has in her life, she utilizes different profiles.\
+\
+For her work related activities, she posts on LinkedIn and pushes commits on Github. For her entertainment, she uses YouTube, Spotify, Netflix. For her social life, she uses Instagram, Farcaster, Lens. And she also has multiple addresses on multiple blockchains where she uses different platforms like Polymarket, Zora.&#x20;
+
+However, all of these profiles are siloed and not interoperable. Alice can create smart profiles from her existing digital footprint which she can take with her anywhere on any platform. An example attribution of her Smart Profiles could be like this:
+
+{% tabs %}
+{% tab title="Social Profile" %}
+Data aggregated from Instagram, X, Farcaster, Lens
+{% endtab %}
+
+{% tab title="Music Profile" %}
+Data aggregated from YouTube, Spotify, Music NFT Platforms
+{% endtab %}
+
+{% tab title="Work Profile" %}
+Data aggregated from LinkedIn, GitHub
+{% endtab %}
+{% endtabs %}
+
 Once Alice creates these profiles, they get cryptographically linked to her chain-agnostic wallet that she can then use on any platform on any blockchain.&#x20;
 
 Now that you have a basic understanding of how Smart Profiles are created and used, we can go into further technical details of the steps involved.
