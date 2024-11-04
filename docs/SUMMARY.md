@@ -18,6 +18,8 @@
     * [Wallet Abstraction](concepts/web3-ux-challenges/wallet-abstraction.md)
     * [Chain Abstraction](concepts/web3-ux-challenges/chain-abstraction.md)
     * [Fragmentation](concepts/web3-ux-challenges/fragmentation.md)
+    * [Cold Start Problem](concepts/web3-ux-challenges/cold-start-problem.md)
+    * [Network Effects](concepts/web3-ux-challenges/network-effects.md)
   * [Web3 Data and Login](concepts/web3-data-and-login.md)
     * [Data](concepts/web3-data-and-login/data.md)
     * [Login](concepts/web3-data-and-login/login.md)
