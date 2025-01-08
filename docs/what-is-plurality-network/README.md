@@ -20,7 +20,7 @@ Wallet, Chain and Gas abstraction to hide the complexities from the end user. Us
 {% step %}
 ### Data Aggregation and Creation of Smart Profiles
 
-Smart Profiles are created by aggregating data and reputation from platforms where the user already has a digital footprint. Smart Profiles are interoperable, self-custodial, data backpacks associated with the user’s wallet, reusable across any platform, subject to user’s consent. This data provides the foundations for privacy-preserving yet personalized experiences on the web.&#x20;
+Smart Profiles are created by aggregating data and reputation from platforms where the user already has a digital footprint. Smart Profiles are interoperable, self-custodial, data backpacks cryptographically linked to the the user’s wallet, reusable across any platform, subject to user’s consent. This data provides the foundations for privacy-preserving yet personalized experiences on the web.&#x20;
 {% endstep %}
 
 {% step %}
