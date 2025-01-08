@@ -9,6 +9,7 @@
   * [Structure of a Smart Profile](the-core-protocol/structure-of-a-smart-profile.md)
   * [Chain Abstraction](the-core-protocol/chain-abstraction.md)
   * [Zero Knowledge Proofs](the-core-protocol/zero-knowledge-proofs.md)
+  * [Personal AI](the-core-protocol/personal-ai.md)
 * [Concepts](concepts/README.md)
   * [Web2 Data and Login](concepts/web2-data-and-login/README.md)
     * [Digital Footprint](concepts/web2-data-and-login/digital-footprint/README.md)
