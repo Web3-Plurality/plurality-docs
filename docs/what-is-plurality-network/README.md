@@ -12,33 +12,27 @@ Plurality does this through several novel techniques including:
 
 {% stepper %}
 {% step %}
-### Wallet and Chain Abstraction
+### Wallet, Chain & Gas Abstraction
 
-Wallet and Chain abstraction to hide the complexities from the end user. Users can create wallets through their email or socials without knowing there is a wallet or chain in the backend.&#x20;
+Wallet, Chain and Gas abstraction to hide the complexities from the end user. Users can create wallets through their email or socials without handling any complexity
 {% endstep %}
 
 {% step %}
-### Data Aggregation
+### Data Aggregation and Creation of Smart Profiles
 
-Data aggregation from platforms where the user already has a digital footprint. This data provides the foundations for privacy-preserving yet personalized experiences on the web.&#x20;
+Smart Profiles are created by aggregating data and reputation from platforms where the user already has a digital footprint. Smart Profiles are interoperable, self-custodial, data backpacks associated with the user’s wallet, reusable across any platform, subject to user’s consent. This data provides the foundations for privacy-preserving yet personalized experiences on the web.&#x20;
 {% endstep %}
 
 {% step %}
-### Liquidity Aggregation
+### Hyper-Personalization through Personal Agents
 
-Liquidity aggregation to aggregate user’s assets across different chains and use them anywhere. This sets the foundations for being able to use any token for paying transaction fees, essentially abstracting away “gas” from the end user
-{% endstep %}
-
-{% step %}
-### Smart Profiles
-
-Smart Profiles that are interoperable, self-custodial, data backpacks associated with the user’s wallet, reusable across any platform, subject to user’s consent.&#x20;
+Each Smart Profile includes a Personal Agent that has permissioned access to user's profile data and wallet. It helps applications understand and serve users better and automates wallet tasks based on user preferences. This forges hyper-personalized and intuitive user experience.
 {% endstep %}
 
 {% step %}
 ### Social Graph
 
-An interoperable social graph associated with the profile, which the user can utilize wherever they go. This can lead to a new era of cross-chain and cross-platform network effects.  &#x20;
+An interoperable social graph associated with the profile which the user can utilize wherever they go. This can lead to a new era of cross-chain and cross-platform network effects.  &#x20;
 {% endstep %}
 {% endstepper %}
 
@@ -114,11 +108,7 @@ However, despite its notable advantages, only 4% of the world uses web3 and ther
 2. **Data and liquidity fragmentation:** Data and liquidity is fragmented across various platforms and blockchains, which not only makes it difficult to create personalized experiences, but also require users to manage assets on multiple chains and navigate swaps and bridges, adding to the steps and friction that a user faces when they have to use a platform.
 3. **No meaningful data or social graph:** Wallets lack meaningful data or social graphs, causing a <mark style="color:purple;">**"cold-start problem"**</mark> for dApps and limiting network effects.
 
-<div data-full-width="false">
-
-<figure><img src="../.gitbook/assets/1729073145171.jfif" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/1729073145171.jfif" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Because of the aforementioned problems, using web3 platforms is not only unengaging, but is also difficult for most end users, making it very difficult to onboard the masses.&#x20;
 
