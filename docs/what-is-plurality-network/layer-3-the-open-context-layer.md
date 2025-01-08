@@ -74,9 +74,9 @@ The lack of interoperability between different blockchains means users cannot ea
 
 A closely related concept is how content is curated on the internet today. Major platforms tailor what users see based on the information in their profiles, but the process behind this curation is often opaque. This lack of transparency has raised concerns, with critics pointing out that social feeds can amplify propaganda or give more visibility to negative content over neutral or balanced information.
 
-This leads to an important question: Can users truly understand what data is being pushed to them and why? The Open Context Layer offers a first step toward transparent curation and recommendation systems, paving the way for more open and accountable content propagation.
+This leads to an important question: Can users truly understand what data is being pushed to them and why? The Open Context Layer offers a first step toward transparent curation and recommendation systems. Through its personal agents trained on granular, permissioned access to the profile data, it paves the way for more open, accountable yet personalized content curation.
 
-> If the profiles are under your own control, and you decide what data to share with whom, then we can also envision a world where the curation systems are also open with well-defined data inputs and outputs.&#x20;
+> If the profiles are under your own control, and you decide what data to share with whom, and transparently see the actions taken, then it can lead to open curation systems on the web
 
 ### Wallet and Chain Abstraction
 
