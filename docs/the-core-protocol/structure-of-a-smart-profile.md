@@ -10,8 +10,6 @@ This document outlines the standards, schemas, and integration processes for cre
 
 The Smart Profile System is built on a set of schemas published on the [Ceramic Network](https://ceramic.network/). These schemas define the structure and metadata required to create and manage Smart Profiles. The primary schemas include:
 
-
-
 ### ProfileType Schema
 
 The `ProfileType` schema provides the model definition for various types of profiles that can be created. Developers can define specific profile types such as:
@@ -21,8 +19,6 @@ The `ProfileType` schema provides the model definition for various types of prof
 * **Gaming Profile**
 
 Plurality Network offers a collection of generic profile types that can be reused across decentralized applications (dApps) and protocols, promoting interoperability and a shared social graph.
-
-
 
 {% tabs %}
 {% tab title="Attributes" %}
@@ -161,4 +157,47 @@ A smart profile schema looks like the following:\
 
 The model can be seen deployed [here](https://cerscan.com/mainnet/stream/kjzl6hvfrbw6caj1gm7ttjyelgavvi8x278am9ukmbl5mkhyqa3o80y7vzv5iuk)&#x20;
 
-##
+## Features
+
+### Native OAuth Integration
+
+Plurality Network provides native OAuth-based integrations with over 10 platforms. This allows developers to bootstrap profiles with user data from existing platforms, enabling features like:
+
+* Importing user interests
+* Establishing reputation scores
+* Calculating social scores
+
+Developers can configure their profile types with a selected list of platforms for data extraction.
+
+List of supported platforms
+
+### Public Data Attestation
+
+An EAS schema defines the public attributes of Smart Profiles for data attestation. These attributes ensure the integrity of user data and include:
+
+* **name**: The pseudonymous name of the user.
+* **bio**: A short biography of the user.
+* **avatar**: The user’s profile picture.
+* **scores**: Collection of various scores, such as reputation and social scores.
+* **connectedPlatforms**: List of platforms the user has connected to via OAuth.
+* **profileTypeStreamId**: The unique ID of the `ProfileType` the SmartProfile belongs to.
+* **version**: Version of the SmartProfile schema.
+* **extendedPublicData**: Public JSON data added by developers, visible to everyone. SDK methods allow developers to set or retrieve this information.
+
+### Private Data Attestation
+
+Private attributes of Smart Profiles are encrypted using Lit Protocol and securely stored. Developers can utilize SDK methods to interact with these attributes, ensuring sensitive information is securely stored and accessible only after user consent. This field supports private data attestations for attributes such as:
+
+*   **attestedCred**: Credentials generated during the onboarding process. These include the following schema:
+
+    * `{name: interests, value: interests[], salt, type}`
+    * `{name: reputation, value: reputation[], salt, type}`
+    * `{name: badges, value: badges[], salt, type}`
+    * `{name: collection, value: badges[], salt, type}`
+    * `{name: attestationData, value: attestation}`
+
+    These values (e.g., interests, reputation, badges, collections) are extracted during onboarding from the user's existing profiles on connected platforms. OAuth data combined with AI-generated insights form these attributes, which are issued as private attestations using EAS. Users can generate proofs to selectively disclose attributes to external parties as needed.
+
+    **Example**: A user can provide a proof of their `interests` attestation issued by Plurality and share it with a dApp during login for personalized recommendations.
+* **attestedPlatformIds**: Unique identifiers or usernames across various platforms linked via OAuth. These credentials enable users to create on-chain or off-chain proofs, such as verifying their Twitter handle.
+  * `{name: <platform_type>, value: <username>, salt, type}`
