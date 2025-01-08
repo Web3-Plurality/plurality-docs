@@ -4,39 +4,34 @@ icon: telescope
 
 # Overview
 
-> The L3 unifying data and liquidity across the web, enabling wallet and chain abstraction through interoperable Smart Profiles. Create your profile once, use it on any platform on the internet.
+> Enhance your web3 experience with Open Context Layer. \
+> Create your Smart Profiles linked to your chain-agnostic wallet for seamless, portable identity leading to easy, intuitive, and hyper-personalized experiences.
 
-Plurality is a layer 3 focused on improving key UX friction points on web3 platforms that lead to an onboarding and retention crisis in web3. Plurality Network focuses to solve this by enabling:
+Plurality Network focuses on reducing key UX friction points on web3 platforms to resolve the onboarding and retention crisis. Plurality Network addresses these issues through the following:
 
 {% stepper %}
 {% step %}
-### Wallet and Chain Abstraction
+### Simplifying Onboarding Workflows
 
-Users should not have to worry about wallets, seed phrases, chains, tokens, gas, etc.&#x20;
+23% of users churn if there is friction during onboarding. Plurality abstracts wallets, chains, gas, tokens and everything in between, providing a web2 like user experience.&#x20;
 {% endstep %}
 
 {% step %}
-### Data and Liquidity Aggregation
+### Profiles instead of Wallets as Unit of Interaction
 
-Data from across the web and liquidity from across the chains is aggregated, reducing fragmentation and enabling the foundations for frictionless interactions between a platform and a user
+Plurality introduces Smart Profiles that contains user's personhood cryptographically linked to the wallet. Profiles offer a familiar and intuitive login experience for users, usable across any platform and chain. One wallet can hold multiple profiles, each tailored to a specific context.
 {% endstep %}
 
 {% step %}
-### Making Profile the Unit of Interaction
+### **Hyper-Personalization with Personal Agents**
 
-Profiles are the new unit of interaction with a platform instead of a wallet, leading to familiar login workflow and personalized experiences for users&#x20;
+Each Smart Profile includes a Personal Agent. These agents help applications determine how best to serve the connected user. Moreover, they assist users in automating wallet tasks according to their preferences. This leads to hyper-personalization and better user experience, leading to increased retention.
 {% endstep %}
 
 {% step %}
-### Universal Identity and Reputation
+### Connecting Social Capital to Financial Capital
 
-Plurality's Smart Profiles can serve as universal identity and reputation mechanism usable on any platform on any blockchain
-{% endstep %}
-
-{% step %}
-### Open Social Graph
-
-Each profile has an attached social graph that can reduce cold start on dApps and improve network effects
+&#x20;With Plurality Social SDK, applications can access users’ social graphs and initiate social actions on their platforms, creating a more engaged and satisfied audience.
 {% endstep %}
 {% endstepper %}
 
