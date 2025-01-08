@@ -4,10 +4,9 @@ icon: telescope
 
 # Overview
 
-> Enhance your web3 experience with Open Context Layer. \
-> Create your Smart Profiles linked to your chain-agnostic wallet for seamless, portable identity leading to easy, intuitive, and hyper-personalized experiences.
+> Enhance your web3 experience with Smart Profiles enabled by Open Context Layer.&#x20;
 
-Plurality Network focuses on reducing key UX friction points on web3 platforms to resolve the onboarding and retention crisis. Plurality Network addresses these issues through the following:
+Plurality Network focuses on improving user experience on web3 platforms through:
 
 {% stepper %}
 {% step %}
@@ -19,13 +18,13 @@ Plurality Network focuses on reducing key UX friction points on web3 platforms t
 {% step %}
 ### Profiles instead of Wallets as Unit of Interaction
 
-Plurality introduces Smart Profiles that contains user's personhood cryptographically linked to the wallet. Profiles offer a familiar and intuitive login experience for users, usable across any platform and chain. One wallet can hold multiple profiles, each tailored to a specific context.
+Plurality introduces Smart Profiles: a new unit of interaction with platforms. Profiles contain user's personhood cryptographically linked to the wallet and offer an intuitive, chain-agnostic login experience.
 {% endstep %}
 
 {% step %}
 ### **Hyper-Personalization with Personal Agents**
 
-Each Smart Profile includes a Personal Agent. These agents help applications determine how best to serve the connected user. Moreover, they assist users in automating wallet tasks according to their preferences. This leads to hyper-personalization and better user experience, leading to increased retention.
+Each Smart Profile includes a Personal Agent that helps applications serve users better and automates wallet tasks based on user preferences, enabling hyper-personalization and improving user retention.
 {% endstep %}
 
 {% step %}
