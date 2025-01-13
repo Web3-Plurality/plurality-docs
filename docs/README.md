@@ -4,9 +4,9 @@ icon: telescope
 
 # Overview
 
-> Enhance your web3 experience with Smart Profiles enabled by Open Context Layer.&#x20;
+> Making web3 accessible, secure and uniquely yours through Smart Profiles enabled by Open Context Layer.&#x20;
 
-Plurality Network focuses on improving user experience on web3 platforms through:
+Web3 is still niche to a vast majority of the world. This is largely due to complicated onboarding workflows and the users not able to discover anything relevant or interesting once they onboard due to cold start problem. Plurality Network focuses on solving these problems through:
 
 {% stepper %}
 {% step %}
