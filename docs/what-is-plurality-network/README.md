@@ -136,6 +136,12 @@ That’s the vision for Plurality.
 
 Learn more about Plurality Network through these talks.
 
+{% embed url="https://www.youtube.com/watch?v=pg3mgNHQ6tc" %}
+Devcon, Bangkok, 2024
+{% endembed %}
+
+
+
 {% embed url="https://www.youtube.com/watch?v=OsY02T1dM2U" %}
 Session in Web3 Summit
 {% endembed %}
