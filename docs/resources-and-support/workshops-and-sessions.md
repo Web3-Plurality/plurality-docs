@@ -2,6 +2,12 @@
 
 This is a non-exhaustive list of talks and sessions about Plurality Network.
 
+{% embed url="https://www.youtube.com/watch?v=pg3mgNHQ6tc" %}
+Devcon, Bangkok, 2024
+{% endembed %}
+
+
+
 {% embed url="https://youtu.be/OsY02T1dM2U" %}
 Web3 Summit Berlin, Aug 2024
 {% endembed %}
