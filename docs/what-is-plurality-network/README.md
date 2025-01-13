@@ -8,13 +8,15 @@ icon: atom
 
 Plurality Network is a layer 3 enabling the next generation of user experience on the open web.
 
-Plurality does this through several novel techniques including:
+Plurality does this through several optimizing for two key problems: Complexity of onboarding and using web3 platforms and then helping users get a good experience after they onboard.&#x20;
+
+Plurality solves these two key UX issues through the following novel techniques:
 
 {% stepper %}
 {% step %}
 ### Wallet, Chain & Gas Abstraction
 
-Wallet, Chain and Gas abstraction to hide the complexities from the end user. Users can create wallets through their email or socials without handling any complexity
+Wallet, Chain and Gas abstraction to hide the complexities from the end user. Users can create wallets through their email or socials without handling any complexity.&#x20;
 {% endstep %}
 
 {% step %}
