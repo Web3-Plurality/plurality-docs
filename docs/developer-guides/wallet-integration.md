@@ -77,6 +77,18 @@ You can customize the widget to:
 * Decide which platforms you need to get connected to the profile e.g. TikTok, X, instagram etc.
 * Add your own description and custom messaging to help users better onboard to your application
 
+### Supported Platforms
+
+You can connect the following platforms in your user's profile:
+
+* Facebook
+* Instagram
+* X
+* TikTok
+* Roblox
+* Fortnite
+* Snapchat
+
 ### Supported Chains
 
 The Smart Profiles Wallet supports all EVM compatible chains for now. Support for non-evm chains will be added in the future.
