@@ -52,7 +52,7 @@ Have a specific request? Contact us on our [discord](https://discord.com/invite/
 
 ## Technical Guides
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><p><strong>Wallet Integration</strong></p><p><br>Integrate Smart Profiles Wallet into your application</p></td><td></td><td></td><td><a href="./">.</a></td></tr><tr><td><p><strong>Wallet</strong> <strong>functions</strong></p><p><br>Use wallet SDK to use standard web3 functions from your wallet</p></td><td></td><td></td><td></td></tr><tr><td><p><strong>Smart</strong> <strong>Profiles</strong></p><p></p><p>Use profiles SDK to get/set user data from profiles necessary for personalization</p></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><p><strong>Wallet Integration</strong></p><p><br>Integrate Smart Profiles Wallet into your application</p></td><td></td><td></td><td><a href="wallet-integration.md">wallet-integration.md</a></td></tr><tr><td><p><strong>Wallet</strong> <strong>functions</strong></p><p><br>Use wallet SDK to use standard web3 functions from your wallet</p></td><td></td><td></td><td><a href="wallet-sdk.md">wallet-sdk.md</a></td></tr><tr><td><p><strong>Smart</strong> <strong>Profiles</strong></p><p></p><p>Use profiles SDK to get/set user data from profiles necessary for personalization</p></td><td></td><td></td><td><a href="smart-profiles-sdk.md">smart-profiles-sdk.md</a></td></tr></tbody></table>
 
 
 
