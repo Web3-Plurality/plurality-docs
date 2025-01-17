@@ -9,14 +9,12 @@ To create a wallet, user first needs to choose how do they want to create the wa
 Once the user selects a certain auth method, a wallet is created in the network that makes sure that this wallet is accessible only with a valid login jwt of the selected auth method.&#x20;
 
 {% hint style="info" %}
-If the user uses an email for creation of a wallet and then later on selects gmail for that same email address, we **do not** create two separate wallets rather tag both authmethods to the same user. Currently no other embedded wallet products offer this feature, resulting in users regularly forgetting what they used to sign up to an application.&#x20;
+If the user uses an email for creation of a wallet and then later on selects gmail for that same email address, we **do not** create two separate wallets rather tag both authmethods to the same user. Currently no other embedded wallet products offer this feature, resulting in users regularly forgetting what they used to sign up to an application. We reduce this cognitive load for end users.
 {% endhint %}
 
 ### ProfileSession
 
 After successful login of profile, a session is created that allows user to access the SDK functions. The session expires after a certain time or when the user logs out. Without valid session signatures, the MPC network will not allow for signature signing.&#x20;
-
-
 
 ## Wallet SDK
 
