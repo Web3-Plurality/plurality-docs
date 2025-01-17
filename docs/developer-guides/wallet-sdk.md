@@ -1,5 +1,7 @@
 # Wallet SDK
 
+> This guide shows how to use standard web3 wallet functions&#x20;
+
 Every wallet needs to interact with the blockchain for carrying out various functions. Once the widget is embedded and the user connects their profile through their preferred auth method, a session is created for this user after which the standard wallet functions can be utilized.
 
 ### AuthMethod
