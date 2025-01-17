@@ -2,7 +2,11 @@
 
 > This guide shows you how to integrate the smart profiles wallet into your application.
 
-Plurality provides an embedded profiles widget that can be integrated into your application to be used as the wallet login solution that supports creation of profiles as well. \
+Plurality provides an embedded profiles widget that can be integrated into your application to be used as the wallet login solution that supports creation of profiles as well.&#x20;
+
+The wallet is created through a network of MPC-TSS in the background and the profile is created on decentralized storage, encrypted with the secrets created through the wallet.&#x20;
+
+The widget allows users to have an easy login while ensuring that they maintain full custody over their wallet and data.  \
 \
 Adding the widget is very simple. Let’s take a look at the steps below:&#x20;
 
@@ -69,12 +73,14 @@ The embedded widget is highly customizable and supports not only dynamic options
 
 You can customize the widget to:
 
-* Show your own application's logo (whitelabelling)&#x20;
+* Show your own application's logo (white labelling)&#x20;
 * Decide which platforms you need to get connected to the profile e.g. TikTok, X, instagram etc.
 * Add your own description and custom messaging to help users better onboard to your application
 
+### Supported Chains
 
+The Smart Profiles Wallet supports all EVM compatible chains for now. Support for non-evm chains will be added in the future.
 
-\
-
-
+{% hint style="info" %}
+Need support for a certain blockchain? Contact us on our [discord](https://discord.com/invite/Mb6ZDgGjcP)&#x20;
+{% endhint %}
