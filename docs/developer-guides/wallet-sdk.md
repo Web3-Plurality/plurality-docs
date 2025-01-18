@@ -18,16 +18,35 @@ If the user uses an email for creation of a wallet and then later on selects gma
 
 After successful login of profile, a session is created that allows user to access the SDK functions. The session expires after a certain time or when the user logs out. Without valid session signatures, the MPC network will not allow for signature signing.&#x20;
 
+{% hint style="info" %}
+As soon as the login process is complete, the connect profile button will automatically change to a circular profile icon with the user's avatar in it and a dropdown with basic profile functions.&#x20;
+{% endhint %}
+
 ## Wallet SDK
 
-To access the wallet functions, the following import should be done on the page/component where the functions need to be called.
+To access the wallet functions, the following import should be done on the page/component where the functions need to be called.&#x20;
 
-```
+```typescript
 import { PluralitySocialConnect } from '@plurality-network/smart-profile-wallet';
+import { 
+            AllAccountsDataType, 
+            ConnectedAccountDataType, 
+            SignMessageDataType, 
+            VerifySignedMessageDataType,
+            GetBalanceDataType, 
+            GetBlockNumberDataType, 
+            GetTransactionCountDataType, 
+            ReadFromContractDataType, 
+            SendTransactionDataType, 
+            WriteToContractDataType 
+        } from '@plurality-network/smart-profile-wallet';
 ```
 
-Once the application has access to a valid session i.e. the user has successfully logged in, the following wallet functions become accessible. \
+You can add/remove the types based on the functions you actually use on the page.&#x20;
 
+> [Clone our boilerplate](https://github.com/Web3-Plurality/plurality-developer-guides) to have a basic application with embedded widget and all the wallet functions already in there.
+
+Once the application has access to a valid session i.e. the user has successfully logged in, the following wallet functions become accessible.&#x20;
 
 ### Get All Connected Accounts
 
