@@ -16,9 +16,15 @@ Adding the widget is very simple. Let’s take a look at the steps below:&#x20;
 * React v18
 * Typescript
 
+
+
+> Need to quickly get started? [Clone our boilerplate](https://github.com/Web3-Plurality/plurality-developer-guides) to have a basic application with embedded widget and all the wallet functions already in there.
+
+
+
 ### Create or Clone a React Application
 
-Create a react or vite application. You can also clone the boilerplate code from [here](https://github.com/Web3-Plurality/plurality-developer-guides).
+Create a react or vite application.&#x20;
 
 {% hint style="info" %}
 The recent react 19 has some breaking changes. If you face these, try downgrading the version of react and react-dom to ^18.0.0 in the package.json
