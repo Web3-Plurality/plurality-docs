@@ -15,10 +15,10 @@ This will allow users that have utilized similar platforms to have a one-click o
 Each profile contains basic user information like name, bio, avatar and description. Moreover, it also has the user's interests & reputation which are analyzed from the social accounts connected to that profile. Lastly, it also supports scores, some of which are calculated by the protocol, others you can setup for your specific application.&#x20;
 
 {% hint style="info" %}
-Support for custom scoring is not yet shipped but will soon. The protocol level scoring however is available.&#x20;
+Support for custom scoring is not yet shipped but will soon. The protocol level scoring however is available which increases the score when more platforms are connected to the profile by the user.
 {% endhint %}
 
-## Using the ProfilesSDK
+## Using the Profiles SDK
 
 As an application developer, you can get profile data from the connected wallet. This will allow you to customize your interface according to your user. Also, it will allow you to cater to your user’s interests and tailor experience accordingly.&#x20;
 
@@ -59,7 +59,34 @@ if (response) {
 }
 ```
 
-### Set Smart Profile Data
+### Fetch Login Information
+
+At any point in your application, if you want to fetch the login information of the connected account i.e. the status of the connected and the token of the session, then you can use the following function.
+
+```typescript
+const response = (await PluralitySocialConnect.getLoginInfo()) as ConnectedAccountDataType;
+if (response) {
+    const loginInfoData = response.data;
+    console.log("Connected Account Info (Inisde dApp)::", loginInfoData);
+    return loginInfoData;
+}
+```
+
+### Update User Consent
+
+When the user logs in to the platform the first time, they are asked whether they want to share their data with this platform or not. If the user decides not to share data, then the application only gets basic user information including name, avatar, bio. However, if the user decides to share their information then the application gets all the required data e.g. interests, reputation, scores, etc. \
+\
+However, user can change their decision anytime throughout the application flow. If at any point throughout the application flow, you want to ask users to reconsider their consent, then the update consent function can be used.&#x20;
+
+```typescript
+const response = (await PluralitySocialConnect.updateConsentOption()) as ConnectedAccountDataType;
+if (response) {
+    const smartProfileData = response.data;
+    return smartProfileData;
+}
+```
+
+## Set Smart Profile Data
 
 As a decentralized application developer, you might also need to store user’s information in a verifiable, decentralized, but gasless and privacy-preserving way. If you want to store any information about the user derived from their actions on your platform, you can set that information in your user’s profile. Next time when the user logs in to you application again, your application will have access to this data again through the SDK functions. \
 \
@@ -90,7 +117,7 @@ if (response) {
 To get previously stored data, the application can get it using the following function
 
 ```typescript
-const response = (await PluralitySocialConnect.getPublicData("name")) as ConnectedAccountDataType;
+const response = (await PluralitySocialConnect.getPublicData("key")) as ConnectedAccountDataType;
 if (response) {
     console.log("response", response.data)
 }
@@ -112,7 +139,7 @@ if (response) {
 To get previously stored data, the application can get it using the following function
 
 ```typescript
-const response = (await PluralitySocialConnect.getPrivateData("work")) as ConnectedAccountDataType;
+const response = (await PluralitySocialConnect.getPrivateData("key")) as ConnectedAccountDataType;
 if (response) {
     console.log("response", response.data)
 }
