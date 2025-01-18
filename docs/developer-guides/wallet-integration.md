@@ -16,11 +16,7 @@ Adding the widget is very simple. Let’s take a look at the steps below:&#x20;
 * React v18
 * Typescript
 
-
-
 > Need to quickly get started? [Clone our boilerplate](https://github.com/Web3-Plurality/plurality-developer-guides) to have a basic application with embedded widget and all the wallet functions already in there.
-
-
 
 ### Create or Clone a React Application
 
@@ -58,9 +54,14 @@ const options = { cliendId: '', theme: 'light' };
 />
 ```
 
-The PluralitySocialConnect tag adds a login button on your page. When the user clicks on the button it opens the embedded widget which walks the user through the onboarding flow. &#x20;
+The PluralitySocialConnect tag adds a "Connect Profile" button on your page. When the user clicks on the button it opens the embedded widget which walks the user through the onboarding flow.\
 
-You can add customized options when adding the SocialConnect tag. There are two fields available in options:
+
+{% hint style="info" %}
+Most app developers prefer to create a header component and put the PluralitySocialConnect tag in there. This makes the button consistent across all pages in the website. Once the login process is complete, the button automatically changes to a circular profile icon with the user's avatar.
+{% endhint %}
+
+You can add customized options when adding the PluralitySocialConnect tag. There are two fields available in options:
 
 1. **ClientId** is the specific id created for your application based on the customizations you have provided. If you keep it empty it will just give you the default widget.&#x20;
 2. **Theme** has two options: dark and light. The dark option is partially implemented for now and will be completely implemented soon.
