@@ -18,6 +18,10 @@ Each profile contains basic user information like name, bio, avatar and descript
 Support for custom scoring is not yet shipped but will soon. The protocol level scoring however is available which increases the score when more platforms are connected to the profile by the user.
 {% endhint %}
 
+## Smart Profiles Schema
+
+The Smart Profiles Schema can be viewed [here](../the-core-protocol/structure-of-a-smart-profile.md).
+
 ## Using the Profiles SDK
 
 As an application developer, you can get profile data from the connected wallet. This will allow you to customize your interface according to your user. Also, it will allow you to cater to your user’s interests and tailor experience accordingly.&#x20;
@@ -41,7 +45,7 @@ const handleDataReturned = (data) => {
 />
 ```
 
-If the event handler is invoked, this means the login has been successful and there is now a valid session.
+If login has been successful and there is now a valid session, the handleDataReturned function will get a valid jwt token showing that there is now an active session.&#x20;
 
 {% hint style="info" %}
 To view the profiles data, you can visit the [explorer](https://cerscan.com/mainnet/project/plurality)
@@ -61,7 +65,7 @@ if (response) {
 
 ### Fetch Login Information
 
-At any point in your application, if you want to fetch the login information of the connected account i.e. the status of the connected and the token of the session, then you can use the following function.
+At any point in your application, if you want to fetch the login information of the connected account i.e. the status of the connected and session token (JWT), then you can use the following function.
 
 ```typescript
 const response = (await PluralitySocialConnect.getLoginInfo()) as ConnectedAccountDataType;
