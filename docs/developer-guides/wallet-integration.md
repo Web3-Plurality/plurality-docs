@@ -44,7 +44,7 @@ import { PluralitySocialConnect } from '@plurality-network/smart-profile-wallet'
 
 
 // in the ts part of the page add the following
-const options = { cliendId: '', theme: 'light' };
+const options = { clientId: '', theme: 'light' };
 
 
 // in the tsx/jsx part of the page add the following tag
