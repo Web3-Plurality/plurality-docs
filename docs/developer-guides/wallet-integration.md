@@ -61,6 +61,8 @@ The PluralitySocialConnect tag adds a "Connect Profile" button on your page. Whe
 Most app developers prefer to create a header component and put the PluralitySocialConnect tag in there. This makes the button consistent across all pages in the website. Once the login process is complete, the button automatically changes to a circular profile icon with the user's avatar.
 {% endhint %}
 
+### Change Appearance of the Connect Profile Button
+
 If you want to change the appearance of the "Connect Profile" button, you can pass in some UI customization parameters to match the appearance of your platform. Like the following:&#x20;
 
 ```typescript
