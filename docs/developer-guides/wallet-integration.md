@@ -61,14 +61,63 @@ The PluralitySocialConnect tag adds a "Connect Profile" button on your page. Whe
 Most app developers prefer to create a header component and put the PluralitySocialConnect tag in there. This makes the button consistent across all pages in the website. Once the login process is complete, the button automatically changes to a circular profile icon with the user's avatar.
 {% endhint %}
 
-You can add customized options when adding the PluralitySocialConnect tag. There are two fields available in options:
+If you want to change the appearance of the "Connect Profile" button, you can pass in some UI customization parameters to match the appearance of your platform. Like the following:&#x20;
+
+```typescript
+<PluralitySocialConnect
+    options={options}
+    customization={{
+        backgroundColor: 'cyan',
+        color: 'black'
+    }} 
+/>
+```
+
+The customization is optional and if you don't want it you can skip it. The following customization options are available though:
+
+<details>
+
+<summary>Button UI Customization Options</summary>
+
+```typescript
+customization?: {
+    minWidth?: string
+    height?: string
+    borderRadius?: string
+    backgroundColor?: string
+    color?: string
+    hoverBackgroundColor?: string
+    hoverTextColor?: string
+    marginTop?: string
+};
+```
+
+</details>
+
+You can also customize the entire flow of widget by passing your specific clientId that's made specially for your application. For this, you need to use the fields in options when adding the PluralitySocialConnect tag. There are two fields available in options:
 
 1. **ClientId** is the specific id created for your application based on the customizations you have provided. If you keep it empty it will just give you the default widget.&#x20;
 2. **Theme** has two options: dark and light. The dark option is partially implemented for now and will be completely implemented soon.
 
 If you keep clientId as empty, then it will just pick up default settings. For testing purposes, this is okay. But for customizing the widget according to your needs and making your application production ready, you must get your own clientId from us.&#x20;
 
-### Customize the widget according to your needs
+So, an example could be like this: \
+
+
+```typescript
+const options = { apps: "example", clientId: 'c4089665-9aa0-4e00-91fb-7485477166dc', theme: 'dark' };
+
+<PluralitySocialConnect
+    options={options}
+    customization={{
+        backgroundColor: 'cyan',
+        color: "black"
+   }} 
+/>
+
+```
+
+### Create your ClientId to customize the widget according to your application
 
 The embedded widget is highly customizable and supports not only dynamic options, but also branding specific to your application. To customize the widget, you need to do the following steps:
 
