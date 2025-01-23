@@ -44,7 +44,7 @@ import { PluralitySocialConnect } from '@plurality-network/smart-profile-wallet'
 
 
 // in the ts part of the page add the following
-const options = { clientId: '', theme: 'light' };
+const options = { clientId: '', theme: 'light', text: 'Customizable Text' };
 
 
 // in the tsx/jsx part of the page add the following tag
@@ -90,7 +90,9 @@ customization?: {
     color?: string
     hoverBackgroundColor?: string
     hoverTextColor?: string
-    marginTop?: string
+    marginTop?: string,
+    fontSize?: string,
+    fontFamily?: string
 };
 ```
 
@@ -100,8 +102,9 @@ You can also customize the entire flow of widget by passing your specific client
 
 1. **ClientId** is the specific id created for your application based on the customizations you have provided. If you keep it empty it will just give you the default widget.&#x20;
 2. **Theme** has two options: dark and light. The dark option is partially implemented for now and will be completely implemented soon.
+3. **Text** is the text of the button that when clicked opens the Smart Profile Wallet. Some examples could be "Login" or "Profile" or anything else that makes sense according to your dApp. &#x20;
 
-If you keep clientId as empty, then it will just pick up default settings. For testing purposes, this is okay.
+If you keep any of the above options as empty, then it will just pick up default settings. For testing purposes, this is okay.
 
 {% hint style="info" %}
 For default settings, the widget will use Sepolia Testnet so you can test out the functions in a developer mode.
@@ -113,7 +116,11 @@ So, an example could be like this: \
 
 
 ```typescript
-const options = { apps: "example", clientId: 'c4089665-9aa0-4e00-91fb-7485477166dc', theme: 'dark' };
+const options = {  
+                    clientId: 'c4089665-9aa0-4e00-91fb-7485477166dc', 
+                    theme: 'dark',
+                    text: 'Login' 
+                };
 
 <PluralitySocialConnect
     options={options}
