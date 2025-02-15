@@ -20,7 +20,7 @@ Adding the widget is very simple. Let’s take a look at the steps below:&#x20;
 
 ### Create or Clone a React Application
 
-Create a react or vite application.&#x20;
+Create a react, vite or next application.&#x20;
 
 {% hint style="info" %}
 The recent react 19 has some breaking changes. If you face these, try downgrading the version of react and react-dom to ^18.0.0 in the package.json
@@ -61,6 +61,44 @@ The PluralitySocialConnect tag adds a "Connect Profile" button on your page. Whe
 Most app developers prefer to create a header component and put the PluralitySocialConnect tag in there. This makes the button consistent across all pages in the website. Once the login process is complete, the button automatically changes to a circular profile icon with the user's avatar.
 {% endhint %}
 
+### Create ClientId from Developer Dashboard
+
+Every application that uses Plurality's Social Connect widget needs to provide a clientId created specifically for this application. To get the id, follow the steps:
+
+1. Go to [developer dashboard](../)
+2. Register or Login with your email
+3. Fill out the details of your project and create a new application from the dashboard once you are logged in
+4. Provide all the details of the application you are building including logo, urls for testing and prod, profile name and description etc.&#x20;
+5. Once you press submit, your app will be created and you will be shown three parameters: Client App Id, Client App Secret, and Profile stream Id
+6. Copy the client app id and use in the options to embed the plurality social connect in your application.
+
+Explaining the parameters we get from the dashboard a bit more here:
+
+**Client App Id** is the specific public id created for your application which you need to pass in the options for plurality social connect widget. It is a public parameter that needs to be added in your frontend code.
+
+**Client App Secret** is the secret parameter you can use to create server side sessions. More details about it can be read here.
+
+**Profile Stream Id** is the stream id created for your app-specific profile created on decentralized storage. You can use that stream to view your published profile on [explorer](../)
+
+If your client app secret is compromised, you can rotate it and create a new one from the dashboard. The client app id and profile stream id however are public variables and are fixed.
+
+
+
+Other than the clientId, you can also pass in theme (which can be either light or dark) and text (which changes the text of the login button).
+
+The code would look like this after adding all parameters of options:
+
+```typescript
+import { PluralitySocialConnect } from '@plurality-network/smart-profile-wallet'
+
+const options = { clientId: '6ea8bf02-ea37-403f-b74c-f117fd3bc0a1', theme: 'light', text: 'Customizable Text' };
+
+<PluralitySocialConnect
+    options={options}
+    onDataReturned={handleDataReturned}
+/>
+```
+
 ### Change Appearance of the Connect Profile Button
 
 If you want to change the appearance of the "Connect Profile" button, you can pass in some UI customization parameters to match the appearance of your platform. Like the following:&#x20;
@@ -98,71 +136,9 @@ customization?: {
 
 </details>
 
-You can also customize the entire flow of widget by passing your specific clientId that's made specially for your application. For this, you need to use the fields in options when adding the PluralitySocialConnect tag. There are two fields available in options:
-
-1. **ClientId** is the specific id created for your application based on the customizations you have provided. If you keep it empty it will just give you the default widget.&#x20;
-2. **Theme** has two options: dark and light. The dark option is partially implemented for now and will be completely implemented soon.
-3. **Text** is the text of the button that when clicked opens the Smart Profile Wallet. Some examples could be "Login" or "Profile" or anything else that makes sense according to your dApp. &#x20;
-
-If you keep any of the above options as empty, then it will just pick up default settings. For testing purposes, this is okay.
-
 {% hint style="info" %}
-For default settings, the widget will use Sepolia Testnet so you can test out the functions in a developer mode.
+The Smart Profiles Wallet supports all EVM compatible chains but for now, the widget is in beta and by default will use Sepolia Testnet so you can test out the functions in a developer mode.
 {% endhint %}
-
-For customizing the widget according to your needs and making your application production ready, you must get your own clientId from us.&#x20;
-
-So, an example could be like this: \
-
-
-```typescript
-const options = {  
-                    clientId: 'c4089665-9aa0-4e00-91fb-7485477166dc', 
-                    theme: 'dark',
-                    text: 'Login' 
-                };
-
-<PluralitySocialConnect
-    options={options}
-    customization={{
-        backgroundColor: 'cyan',
-        color: "black"
-   }} 
-/>
-
-```
-
-### Create your ClientId to customize the widget according to your application
-
-The embedded widget is highly customizable and supports not only dynamic options, but also branding specific to your application. To customize the widget, you need to do the following steps:
-
-1. Fill out [this form](https://forms.gle/Rw54YZFZjUR3fkXV7) which will ask for your preferences.
-2. Wait 1-2 business days, our team will do the entire setup for you in the backend and send you an email with your clientId. Please note that this step will get automated over the course of next few months when we launch our developer dashboard.
-3. Once you get your clientId, add it into the options of the PluralitySocialConnect tag.&#x20;
-
-**So, what can you customize?**
-
-You can customize the widget to:
-
-* Show your own application's logo (white labelling)&#x20;
-* Decide which platforms you need to get connected to the profile e.g. TikTok, X, instagram etc.
-* Add your own description and custom messaging to help users better onboard to your application
-
-### Supported Platforms
-
-You can connect the following platforms in your user's profile:
-
-* Facebook
-* Instagram
-* X
-* TikTok
-* Roblox
-* Fortnite
-* Snapchat
-
-### Supported Chains
-
-The Smart Profiles Wallet supports all EVM compatible chains for now. Support for non-evm chains will be added in the future.
 
 {% hint style="info" %}
 Need support for a certain blockchain? Contact us on our [discord](https://discord.com/invite/Mb6ZDgGjcP)&#x20;
