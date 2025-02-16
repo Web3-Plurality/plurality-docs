@@ -78,7 +78,7 @@ Explaining the parameters we get from the dashboard a bit more here:
 
 **Client App Secret** is the secret parameter you can use to create server side sessions. More details about it can be read [here](../technical-guides/server-side-sessions.md).
 
-**Profile Stream Id** is the stream id created for your app-specific profile created on decentralized storage. You can use that stream to view your published profile on [explorer](../)
+**Profile Stream Id** is the stream id created for your app-specific profile created on decentralized storage. You can use that stream to view your published profile on [explorer](https://cerscan.com/mainnet/project/plurality)
 
 {% hint style="info" %}
 If your client app secret is compromised, you can rotate it and create a new one from the dashboard. The client app id and profile stream id however are public variables and are fixed.
