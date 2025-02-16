@@ -76,7 +76,7 @@ Explaining the parameters we get from the dashboard a bit more here:
 
 **Client App Id** is the specific public id created for your application which you need to pass in the options for plurality social connect widget. It is a public parameter that needs to be added in your frontend code.
 
-**Client App Secret** is the secret parameter you can use to create server side sessions. More details about it can be read [here](../technical-guides/server-side-sessions.md).
+**Client App Secret** is the secret parameter you can use to create server side sessions. More details about it can be read [here](server-side-sessions.md).
 
 **Profile Stream Id** is the stream id created for your app-specific profile created on decentralized storage. You can use that stream to view your published profile on [explorer](../)
 
