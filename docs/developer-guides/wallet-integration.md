@@ -80,9 +80,9 @@ Explaining the parameters we get from the dashboard a bit more here:
 
 **Profile Stream Id** is the stream id created for your app-specific profile created on decentralized storage. You can use that stream to view your published profile on [explorer](../)
 
+{% hint style="info" %}
 If your client app secret is compromised, you can rotate it and create a new one from the dashboard. The client app id and profile stream id however are public variables and are fixed.
-
-
+{% endhint %}
 
 Other than the clientId, you can also pass in theme (which can be either light or dark) and text (which changes the text of the login button).
 
