@@ -65,7 +65,7 @@ Most app developers prefer to create a header component and put the PluralitySoc
 
 Every application that uses Plurality's Social Connect widget needs to provide a clientId created specifically for this application. To get the id, follow the steps:
 
-1. Go to [developer dashboard](../)
+1. Go to [developer dashboard](https://developer.plurality.network/)
 2. Register or Login with your email
 3. Fill out the details of your project and create a new application from the dashboard once you are logged in
 4. Provide all the details of the application you are building including logo, urls for testing and prod, profile name and description etc.&#x20;
