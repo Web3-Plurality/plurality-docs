@@ -42,6 +42,8 @@
   * [Wallet Integration](developer-guides/wallet-integration.md)
   * [Wallet SDK](developer-guides/wallet-sdk.md)
   * [Smart Profiles SDK](developer-guides/smart-profiles-sdk.md)
+* [Technical Guides](technical-guides/README.md)
+  * [Server Side Sessions](technical-guides/server-side-sessions.md)
 * [Tokenomics](tokenomics.md)
 * [Products](products/README.md)
   * [ProfileConnect](products/profileconnect.md)
