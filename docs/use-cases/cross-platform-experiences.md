@@ -11,5 +11,5 @@ Check out the [demo](https://app.plurality.network) that does this in the fashio
 {% endhint %}
 
 {% hint style="info" %}
-Learn more about Reality Spectrum Matrix [here](../products/reality-spectrum-matrix.md)&#x20;
+Learn more about Reality Spectrum Matrix [here](broken-reference)&#x20;
 {% endhint %}
