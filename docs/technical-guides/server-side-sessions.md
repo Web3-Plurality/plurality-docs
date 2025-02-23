@@ -38,6 +38,12 @@ This will return the token of the connected user.\
 \
 3\. Now, to create a session for this user on the backend, send this token from frontend to your backend. In the backend, validate this token by calling the following API. You have to pass in the token in the data, and the clientId and clientSecret in the authorization.
 
+{% hint style="success" %}
+You can also use the [swagger](https://app.plurality.network/api/docs-client/#/) here. \
+\
+1\. Authorize the user by adding `username = clientId` and `password=clientSecret.` 2. Call the /user/validate function giving the `"token": "xxx-token-from-getLoginInfo"` in body.
+{% endhint %}
+
 {% tabs %}
 {% tab title="cURL" %}
 ```javascript
