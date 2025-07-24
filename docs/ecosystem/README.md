@@ -1,6 +1,0 @@
----
-icon: pagelines
----
-
-# Ecosystem
-

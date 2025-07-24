@@ -20,7 +20,7 @@ Support for custom scoring is not yet shipped but will soon. The protocol level 
 
 ## Smart Profiles Schema
 
-The Smart Profiles Schema can be viewed [here](../the-core-protocol/structure-of-a-smart-profile.md).
+The Smart Profiles Schema can be viewed [here](broken-reference).
 
 ## Using the Profiles SDK
 
