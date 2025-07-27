@@ -1,3 +1,7 @@
+---
+icon: face-disguise
+---
+
 # Personal Assistants
 
 ### Personal AI Assistants That Actually Remember
