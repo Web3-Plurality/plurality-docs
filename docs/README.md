@@ -6,7 +6,8 @@ icon: telescope
 
 ## What is the Open Context Layer?
 
-> Open Context Layer (OCL) is a user-owned system for managing and sharing context across AI agents, apps, and digital systems. As we move toward an AI-first internet, context becomes the new currency. OCL ensures this context is persistent, portable, private, and programmable.
+> **tl:dr;** The Open Context Layer (OCL) is a user-owned system for managing and sharing context across AI agents and digital apps. With OCL, individuals control the context they generate (preferences, identity, history, knowledge, intent) and determine who can access it, when, and how.\
+> As we enter an AI-native internet, context becomes the new currency of intelligence. OCL ensures that this context is **persistent, portable, private, and programmable,** powering smarter, hyper-personalized, and user-aligned digital ecosystems.
 
 The **Open Context Layer (OCL)** is a decentralized, user-owned, and privacy-preserving system for managing and sharing contexts across AI agents, apps, and digital systems.
 
