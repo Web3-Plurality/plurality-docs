@@ -2,6 +2,9 @@
 
 * [Overview](README.md)
 * [What is Context?](what-is-context.md)
+* [Core Concepts](core-concepts/README.md)
+  * [Context](core-concepts/context.md)
+  * [Smart Profiles](core-concepts/smart-profiles.md)
 * [Use Cases](use-cases.md)
 * [Developer Guides](developer-guides/README.md)
   * [Embedded Login](developer-guides/embedded-login/README.md)
