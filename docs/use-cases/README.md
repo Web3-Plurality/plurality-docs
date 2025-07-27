@@ -26,3 +26,7 @@ Health and wellbeing applications gain immense value from persistent, private co
 
 With OCL, users can share specific slices of their context: for a limited time, at a certain price, or under specific conditions. Researchers or experts can rent out their contextual knowledge as a new asset class. Communities, teams, or startups can create shared group contexts to boost collaboration. And thanks to programmable permissions, users maintain full transparency and control.
 
+
+
+Go to the specific sections of each categories to find out detailed use cases.
+
