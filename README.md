@@ -7,33 +7,47 @@ metaLinks:
 
 # Overview
 
-## What is the Open Context Layer?
+> **TL;DR** The Open Context Layer (OCL) is a user-owned system for managing and sharing context across AI agents and apps. You control the context you generate (preferences, identity, history, knowledge, intent) and decide who can access it, when, and how.
 
-> **tl:dr;** The Open Context Layer (OCL) is a user-owned system for managing and sharing context across AI agents and digital apps. With OCL, individuals control the context they generate (preferences, identity, history, knowledge, intent) and determine who can access it, when, and how.\
-> As we enter an AI-native internet, context becomes the new currency of intelligence. OCL ensures that this context is **persistent, portable, private, and programmable,** powering smarter, hyper-personalized, and user-aligned digital ecosystems.
+The **Open Context Layer (OCL)** is a decentralized, user-owned, privacy-preserving system for managing and sharing context across AI agents, apps, and digital systems.
 
-The **Open Context Layer (OCL)** is a decentralized, user-owned, and privacy-preserving system for managing and sharing contexts across AI agents, apps, and digital systems.
+#### Why we're building it
 
-### Why are we building it?
+The way humans interact with the internet is undergoing a once-in-a-generation transformation. Traditional search, static interfaces, and disconnected apps are giving way to fluid, conversational interactions powered by intelligent agents and large language models. In this new era (the Agentic Web), AI agents act on behalf of users, navigating digital spaces, making decisions, and personalizing services in real time.
 
-The way humans interact with the internet is undergoing a once-in-a-generation transformation. Traditional search, static interfaces, and disconnected apps are rapidly giving way to fluid, conversational interactions powered by intelligent agents and large language models (LLMs). In this new era, the Agentic Web, AI agents act on behalf of users, navigating digital spaces, making decisions, and personalizing services in real time.
+But to be truly intelligent, agents need more than the last message. They need _context_: who you are, what you're working on, what you care about. Today, this context is fragmented across apps, owned by platforms, and lost with every session.
 
-But to be truly intelligent and helpful, agents need to understand more than the last message, they need context. Who you are. What you're working on. What you care about. Yet today, this context is fragmented across apps, owned by platforms, and often lost with every session.
+> OCL provides the missing foundation: **a portable, persistent, privacy-preserving context layer** that puts users back in control.
 
-> OCL provides the missing foundation: _**a portable, persistent, privacy-preserving context layer**_ that makes user's lives easier and puts them back in control.&#x20;
+Instead of starting from scratch in every app, your preferences, memory, and intent follow you: encrypted, under your control, and shareable only with explicit consent.
 
-Instead of starting from scratch in every app, your preferences, memory, and intent follow you: encrypted, under your control, and sharable with explicit consent.
+OCL turns context into a first-class, programmable primitive: one that powers hyper-personalization without compromising privacy, and lets apps and agents work smarter, together.
 
-OCL turns context into a first-class, programmable primitive: one that powers hyper-personalization without compromising privacy, and enables apps and agents to work smarter, together.
-
-Our vision is to create a world where:
+Our vision is a world where:
 
 * Context follows users across apps and agents
 * AI assistants remember and adapt to your style and goals
 * Users control who sees what, when, and how
 * Personalization and privacy are balanced by design
 
-This is the backbone of the Agentic Web, a future of AI systems aligned with individuals, not platforms.
+This is the backbone of the Agentic Web: a future of AI systems aligned with individuals, not platforms.
+
+#### How OCL works
+
+OCL has three pieces that build on each other:
+
+**Smart Profiles** are the underlying primitive. User-owned, encrypted containers that hold your context. You can have many (work, personal, health) and you decide what goes in each. They are also sometimes referred to as "buckets" or "memory buckets" for easily understanding what they mean.
+
+[**AI Context Flow**](https://chromewebstore.google.com/detail/ai-context-flow-ai-memory/cfegfckldnmbdnimjgfamhjnmjpcmgnf) is the browser extension that makes Smart Profiles useful day-to-day. It captures context from your existing apps, websites and conversations. It allows you to organize your context, and prepares it to be shared with the AI tools you actually use.
+
+**The Plurality MCP Server** is the bridge. It exposes your Smart Profiles (or memory buckets) to any AI agent that speaks the [Model Context Protocol](https://modelcontextprotocol.io) — Claude, ChatGPT, Cursor, GitHub Copilot, Windsurf, OpenClaw, and others — so they can read your context (with your permission) without you copy-pasting it into every new chat.
+
+#### Where to go next
+
+* **New here?** Read Architecture at a glance for a one-page overview of the system.
+* **Want to try it now?** Jump to the Quickstart — five minutes to your first context-aware agent.
+* Just interested in MCP? Jump to the relevant section.
+* **Just curious about the concepts?** Continue to Smart Profiles.
 
 ## Join Our Community
 
