@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
+  * [Architecture at a Glance](overview/architecture-at-a-glance.md)
+  * [Quickstart](overview/quickstart.md)
 * [Core Concepts](core-concepts/README.md)
   * [Context](core-concepts/context.md)
   * [Smart Profiles](core-concepts/smart-profiles.md)
