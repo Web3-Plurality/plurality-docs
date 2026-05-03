@@ -1,40 +1,46 @@
 # Architecture at a Glance
 
-> **TL;DR** OCL has four layers. Smart Profiles store your context. AI Context Flow manages it. The Plurality MCP Server exposes it. Your AI agents consume it. You own everything in the bottom layer.
+> **TL;DR** OCL has four layers. \
+> \
+> 1\. Memory Buckets store your context. \
+> 2\. AI Context Flow lets you manage and work with your context on any website. \
+> 3\. The Plurality MCP Server exposes your context to MCP-compatible AI agents and tools. \
+> 4\. Your AI agents and tools consume the context. \
+> \
+> You own everything in the bottom layer.
 
 #### The four layers
 
 ```
-   ┌─────────────────────────────────────────────────┐
-4  │  AI Agents          Claude · ChatGPT · Cursor   │   The consumers
-   └────────────────────────┬────────────────────────┘
-                            │  MCP
-   ┌────────────────────────▼────────────────────────┐
-3  │  Plurality MCP Server                           │   The bridge
-   └────────────────────────┬────────────────────────┘
-                            │
-   ┌────────────────────────▼────────────────────────┐
-2  │  AI Context Flow                                │   The product
-   │  capture · organize · permission · share        │
-   └────────────────────────┬────────────────────────┘
-                            │
-   ┌────────────────────────▼────────────────────────┐
-1  │  Smart Profiles (Memory Buckets)                │   The primitive
-   │  user-owned · encrypted · portable              │
-   └─────────────────────────────────────────────────┘
+                    ┌─────────────────────────────────┐
+                    │  AI Agents                      │   The consumers
+                    │  Claude · ChatGPT · Cursor      │
+                    └────────────────┬────────────────┘
+                                     │  MCP
+   ┌─────────────────────────┐  ┌────▼─────────────────────┐
+   │  AI Context Flow        │  │  Plurality MCP Server    │   The clients
+   │  (Browser Extension)    │  │                          │
+   │  capture · organize ·   │  │  exposes memory buckets  │
+   │  permission · share     │  │  to AI agents            │
+   └────────────┬────────────┘  └─────────────┬────────────┘
+                │                             │
+                │   read / write              │   read / write
+                ▼                             ▼
+   ┌──────────────────────────────────────────────────────┐
+   │  Memory Buckets                                      │   The primitive
+   │  user-owned · encrypted · portable                   │
+   └──────────────────────────────────────────────────────┘
 ```
 
-#### Layer 1 — Smart Profiles (the primitive)
+#### Layer 1 — Memory Buckets (the primitive)
 
-A Smart Profile is an encrypted, user-owned container of context. You can have multiple profiles for different parts of your life e.g. work, personal, health, a side project, and each one holds whatever context belongs to that slice of you.
-
-_Note: Smart Profiles are usually referred to as "Memory Buckets" in AI Context Flow._
+A memory bucket is an encrypted, user-owned container of context. You can have multiple bucket for different parts of your life e.g. work, personal, health, a side project, and each one holds whatever context belongs to that slice of you.
 
 → Read more: Smart Profiles
 
 #### Layer 2 — AI Context Flow (the product)
 
-Smart Profiles on their own are just storage. AI Context Flow is the product layer that makes them useful. It's a browser extension that helps you capture context from your activity, help you organize it into the right bucket, and lets you set permissions on what gets shared and with whom.
+Memory buckets on their own are just storage. AI Context Flow is the product layer that makes them useful. It's a browser extension that helps you capture context from your activity, help you organize it into the right bucket, and lets you set permissions on what gets shared and with whom.
 
 Think of it as the operating system for your context: capture, sort, permission, share.
 
@@ -70,4 +76,4 @@ When you ask ChatGPT website _"what was I working on last week?"_ and then press
 1. **Your Prompt** is improved and the relevant context is fetched and added from the selected memory bucket
 2. ChatGPT gives you improved answers because it now got a better, more contextual prompt with all the right details<br>
 
-In both cases, you see the answer. The context never leaves your control without permission, and the answer is grounded in _your_ history — not a generic guess.
+In both cases, you see a better, more fitting answer. The context never leaves your control without permission, and the answer is grounded in _your_ history — not a generic guess.

@@ -9,7 +9,7 @@ metaLinks:
 
 > **TL;DR** The Open Context Layer (OCL) is a user-owned system for managing and sharing context across AI agents and apps. You control the context you generate (preferences, identity, history, knowledge, intent) and decide who can access it, when, and how.
 
-The **Open Context Layer (OCL)** is a decentralized, user-owned, privacy-preserving system for managing and sharing context across AI agents, apps, and digital systems.
+The **Open Context Layer (OCL)** is a user-owned, privacy-preserving system for managing and sharing context across AI agents, apps, and digital systems.
 
 #### Why we're building it
 
@@ -36,17 +36,17 @@ This is the backbone of the Agentic Web: a future of AI systems aligned with ind
 
 OCL has three pieces that build on each other:
 
-**Smart Profiles** are the underlying primitive. User-owned, encrypted containers that hold your context. You can have many (work, personal, health) and you decide what goes in each. They are also sometimes referred to as "buckets" or "memory buckets" for easily understanding what they mean.
+**Memory Buckets** are the underlying primitive. User-owned, encrypted containers that hold your context. You can have many (work, personal, health) and you decide what goes in each.&#x20;
 
-[**AI Context Flow**](https://chromewebstore.google.com/detail/ai-context-flow-ai-memory/cfegfckldnmbdnimjgfamhjnmjpcmgnf) is the browser extension that makes Smart Profiles useful day-to-day. It captures context from your existing apps, websites and conversations. It allows you to organize your context, and prepares it to be shared with the AI tools you actually use.
+[**AI Context Flow**](https://chromewebstore.google.com/detail/ai-context-flow-ai-memory/cfegfckldnmbdnimjgfamhjnmjpcmgnf) is the browser extension that makes memory buckets useful day-to-day. It captures context from your existing apps, websites and conversations. It allows you to organize your context, and prepares it to be shared with the AI tools you actually use.
 
-**The Plurality MCP Server** is the bridge. It exposes your Smart Profiles (or memory buckets) to any AI agent that speaks the [Model Context Protocol](https://modelcontextprotocol.io) — Claude, ChatGPT, Cursor, GitHub Copilot, Windsurf, OpenClaw, and others — so they can read your context (with your permission) without you copy-pasting it into every new chat.
+**The Plurality MCP Server** is the bridge. It exposes your memory buckets to any AI agent that speaks the [Model Context Protocol](https://modelcontextprotocol.io) — Claude, ChatGPT, Cursor, GitHub Copilot, Windsurf, OpenClaw, and others — so they can read your context (with your permission) without you copy-pasting it into every new chat.
 
 #### Where to go next
 
 * **New here?** Read Architecture at a glance for a one-page overview of the system.
 * **Want to try it now?** Jump to the Quickstart — five minutes to your first context-aware agent.
-* Just interested in MCP? Jump to the relevant section.
+* **Just interested in MCP?** Jump to the relevant section.
 * **Just curious about the concepts?** Continue to Smart Profiles.
 
 ## Join Our Community

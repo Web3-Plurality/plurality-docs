@@ -2,8 +2,9 @@
 
 * [Overview](README.md)
   * [Architecture at a Glance](overview/architecture-at-a-glance.md)
-  * [Quickstart](overview/quickstart.md)
-* [AI Context Flow](ai-context-flow.md)
+  * [Quickstart with MCP](overview/quickstart-with-mcp.md)
+* [AI Context Flow](user-guides.md)
+* [The Plurality MCP Server](the-plurality-mcp-server.md)
 * [Core Concepts](core-concepts/README.md)
   * [Context](core-concepts/context.md)
   * [Smart Profiles](core-concepts/smart-profiles.md)

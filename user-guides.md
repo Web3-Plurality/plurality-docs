@@ -11,9 +11,7 @@ metaLinks:
 
 ### What it is
 
-AI Context Flow is the application layer of the Open Context Layer. If Smart Profiles are the underlying primitive — encrypted, user-owned containers of context — then AI Context Flow is how you actually create, fill, and use them in everyday work.
-
-> 💡 **Inside AI Context Flow, Smart Profiles are called&#x20;**_**memory buckets**_**.** Same concept, friendlier name for day-to-day use. "Smart Profile" is the underlying primitive; "memory bucket" is what you'll click on in the product. If you see either term in the docs, they refer to the same thing.
+AI Context Flow is the application layer of the Open Context Layer. If memory buckets are the underlying primitive — encrypted, user-owned containers of context — then AI Context Flow is how you actually create, fill, and use them in everyday work.
 
 ### Two parts of AI Context Flow
 
@@ -52,4 +50,3 @@ AI Context Flow ends that. You set up your context once. Your agents know it. An
 
 * Connect your first AI agent — five-minute setup
 * The Plurality MCP Server — the bridge between your context and your tools
-* Smart Profiles — the underlying primitive<br>

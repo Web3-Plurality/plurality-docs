@@ -1,14 +1,14 @@
-# Quickstart
+# Quickstart with MCP
 
 ### Quickstart
 
-> **TL;DR** Get your first AI agent reading your context in under five minutes.
+> **TL;DR** Get your first AI agent reading your context in under five minutes using Plurality MCP Server
 
 #### What you'll need
 
 * An account on Memory Studio → [sign up](https://app.plurality.network)
-* One of these AI tools: Claude Desktop, Claude Code, Cursor, ChatGPT (paid), or any MCP-compatible client
-* (optional) For advanced features like Prompt Optimization, AI Sidebar, Add Context From Anywhere, also download the AI Context Flow [Browser Extension](https://chromewebstore.google.com/detail/ai-context-flow-use-your/cfegfckldnmbdnimjgfamhjnmjpcmgnf)
+* Any AI tools: e.g. Claude (Website or Desktop), Claude Code, Cursor, ChatGPT, etc.
+* (optional) AI Context Flow Browser Extension → Download [here](https://chromewebstore.google.com/detail/ai-context-flow-use-your/cfegfckldnmbdnimjgfamhjnmjpcmgnf)
 
 #### Step 1 — Create your first memory bucket
 
@@ -16,7 +16,7 @@ Open [Memory Studio](https://app.plurality.network/) and click **Create memory**
 
 #### Step 2 — Pick your AI tool
 
-Now let's connect this memory to your favorite AI agent using MCP. Most use OAuth, so there are no API keys to manage.
+Now let's connect this memory to your favorite AI agent or tool using MCP. Most use OAuth, so there are no API keys to manage.
 
 | Tool                 | Setup time |
 | -------------------- | ---------- |
