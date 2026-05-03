@@ -1,3 +1,7 @@
+---
+description: 'Last updated: April, 2026'
+---
+
 # ChatGPT
 
 > **TL;DR** Add `https://app.plurality.network/mcp` as a custom connector in ChatGPT settings. OAuth handles the rest.
