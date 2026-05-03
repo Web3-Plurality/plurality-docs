@@ -11,7 +11,7 @@ metaLinks:
 Smart Profiles Wallet is the embedded profiles wallet that any dApp can integrate to allow sign in with profile functionality for their users.
 
 {% hint style="info" %}
-Go to [guides](../developer-guides/embedded-login/) to learn about how to integrate it with your dApp
+Go to [guides](../smart-profiles/developer-guides/embedded-login/) to learn about how to integrate it with your dApp
 {% endhint %}
 
 dApps can register with Plurality and configure which profile do they want their users to login with (examples: Social, Metaverse, Gaming)

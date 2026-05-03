@@ -44,7 +44,7 @@ OCL has three pieces that build on each other:
 
 #### Where to go next
 
-* **New here?** Read Architecture at a glance for a one-page overview of the system.
+* **New here?** Read [Architecture at a glance](overview/architecture-at-a-glance.md) for a one-page overview of the system.
 * **Want to try it now?** Jump to the Quickstart — five minutes to your first context-aware agent.
 * **Just interested in MCP?** Jump to the relevant section.
 * **Just curious about the concepts?** Continue to Smart Profiles.

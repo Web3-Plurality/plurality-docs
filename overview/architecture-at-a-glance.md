@@ -36,15 +36,13 @@
 
 A memory bucket is an encrypted, user-owned container of context. You can have multiple bucket for different parts of your life e.g. work, personal, health, a side project, and each one holds whatever context belongs to that slice of you.
 
-→ Read more: Smart Profiles
-
 #### Layer 2 — AI Context Flow (the product)
 
 Memory buckets on their own are just storage. AI Context Flow is the product layer that makes them useful. It's a browser extension that helps you capture context from your activity, help you organize it into the right bucket, and lets you set permissions on what gets shared and with whom.
 
 Think of it as the operating system for your context: capture, sort, permission, share.
 
-→ Read more: AI Context Flow
+→ Read more: [AI Context Flow](../user-guides.md)
 
 #### Layer 3 — The Plurality MCP Server (the bridge)
 
@@ -52,13 +50,13 @@ The Plurality MCP Server speaks the [Model Context Protocol](https://modelcontex
 
 You don't paste your background into every new ChatGPT conversation. The agent asks; the MCP Server answers — under the rules you set.
 
-→ Read more: The Plurality MCP Server
+→ Read more: [The Plurality MCP Server](../the-plurality-mcp-server/)
 
 #### Layer 4 — Your AI agents (the consumers)
 
 The agents you already use. Claude (Desktop and Code), ChatGPT, Cursor, Windsurf, GitHub Copilot, LM Studio, Lovable, Replit, OpenClaw, and any other tool that speaks MCP. They see the context you choose to share, and nothing else.
 
-→ Read more: Connect Your Agents via MCP
+→ Read more: [Connect Your Agents via MCP](../the-plurality-mcp-server/connect-your-agents-via-mcp/)
 
 #### How a request flows
 
@@ -73,7 +71,7 @@ Alternatively, if you are on a browser AI Agent and not using MCP.&#x20;
 
 When you ask ChatGPT website _"what was I working on last week?"_ and then press "Optimize" button
 
-1. **Your Prompt** is improved and the relevant context is fetched and added from the selected memory bucket
+1. Your Prompt is improved and the relevant context is fetched and added from the selected memory bucket
 2. ChatGPT gives you improved answers because it now got a better, more contextual prompt with all the right details<br>
 
 In both cases, you see a better, more fitting answer. The context never leaves your control without permission, and the answer is grounded in _your_ history — not a generic guess.
