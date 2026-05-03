@@ -18,7 +18,11 @@ AI Context Flow is the application layer of the Open Context Layer. If memory bu
 * **Memory Studio:** The [dashboard](https://app.plurality.network/) where you can see your memory buckets, edit it, share them with friends, and more. Memory studio is your command center.
 * **Browser Extension:**  The [chrome extension](https://chromewebstore.google.com/detail/ai-context-flow-use-your/cfegfckldnmbdnimjgfamhjnmjpcmgnf) that lets you capture information from any webpage, helps you optimize your prompts with the correct context, and gives you a sidebar that you can open on any website and cross reference the page's content with what you have stored in your memory.&#x20;
 
-Together, these two parts combinedly are what we refer to as the "AI Context Flow"
+Together, these two parts combinedly are what we refer to as the "AI Context Flow".\
+\
+See the video below to see what AI Context Flow offers.
+
+{% embed url="https://www.youtube.com/watch?v=VO7Ro1uFiVQ" %}
 
 ### What it does
 
@@ -48,5 +52,5 @@ AI Context Flow ends that. You set up your context once. Your agents know it. An
 
 ### What's next
 
-* Connect your first AI agent — five-minute setup
-* The Plurality MCP Server — the bridge between your context and your tools
+* [Connect your first AI agent](overview/quickstart.md) — five-minute setup
+* [The Plurality MCP Server](the-plurality-mcp-server/) — the bridge between your context and your tools
