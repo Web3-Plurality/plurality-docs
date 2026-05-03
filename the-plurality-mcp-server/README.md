@@ -4,7 +4,7 @@ icon: link-simple
 
 # The Plurality MCP Server
 
-> **TL;DR** The Plurality MCP Server exposes your memory buckets to any AI agent that speaks the Model Context Protocol. Connect once per tool, authenticate (via OAuth or a personal access token), and your context flows automatically — both ways.
+> **TL;DR** The Plurality MCP Server exposes your memory buckets to any AI agent that speaks the Model Context Protocol. Connect once per tool, authenticate (via OAuth or a personal access token), and your context flows automatically (in both directions).
 
 ### What is MCP?
 
@@ -56,10 +56,10 @@ The Plurality MCP Server exposes the following tools to connected agents:
 | `search_memory`               | Semantic search across buckets with relevance scoring  |
 | `read_context`                | Read the full content of a stored item (paginated)     |
 | `save_memory`                 | Save text content to a specific memory bucket          |
-| `save_conversation`           | Save a chat history to a memory bucket                 |
+| `save_conversation`           | Save a conversation (chat history) to a memory bucket  |
 | `create_memory_bucket`        | Create a new memory bucket                             |
 
-Connected agents can **read** your context and **write** new context back to your buckets — context saved from Cursor is immediately available in Claude or ChatGPT, with no manual syncing.
+Connected agents can **read** your context and **write** new context back to your buckets. For example, context saved from Cursor is immediately available in Claude or ChatGPT, with no manual syncing.
 
 ### Authentication
 
@@ -74,25 +74,27 @@ When you connect a tool, it opens a browser window and redirects you to Pluralit
 **Why use it:**
 
 * No credentials to copy or paste
-* Easy to revoke (sign tools out from your Plurality dashboard)
 * Standard flow supported natively by every major MCP client
 
 The Plurality MCP Server implements OAuth 2.1 with **Dynamic Client Registration (DCR)**, which is what allows any compliant MCP client to connect without prior coordination.
 
 #### Personal Access Token (API key)
 
-For environments where OAuth is impractical — CI pipelines, scripts, self-hosted agents, headless deployments — the Plurality MCP Server also accepts personal access tokens.
+For environments where OAuth is impractical —  self-hosted agents, headless deployments, scripts — the Plurality MCP Server also accepts personal access tokens.
 
 **To use a PAT:**
 
-1. Generate a token in your Plurality dashboard under **`[CONFIRM: Settings → Developer → Personal Access Tokens]`**.
+1. Generate a token in your Plurality dashboard under \
+   &#xNAN;**`Connect via MCP → Manage MCP Tokens → Create Token`**.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+1. When you click on Create Token, you need to give your token a name and set its expiry. Copy the PAT that gets generated (we show it only once)
 2. In your MCP client's configuration, add an `Authorization` header:
 
 ```
-Authorization: Bearer plk_<your_token>
+Authorization: Bearer plur_pat_xxx
 ```
-
-`[CONFIRM: actual token prefix and header format]`
 
 **Why use it:**
 
@@ -100,7 +102,7 @@ Authorization: Bearer plk_<your_token>
 * Easy to scope to specific buckets or operations
 * Can be set per-environment (different tokens for dev/staging/prod)
 
-**Treat PATs like passwords** — never commit them to source control, and rotate them when team members leave.
+**Treat PATs like passwords** — never commit them to source control, and rotate them when team members leave or you need to disallow a certain agent to access your memory buckets.
 
 ### Permissions and security
 
@@ -108,6 +110,11 @@ Three things to know:
 
 1. **Per-agent permissions.** Each connected agent has its own access scope. Granting Claude Desktop access to your _Work_ bucket doesn't grant any other tool access to it.
 2. **Per-bucket permissions.** Buckets are independent units. An agent permitted on one is not automatically permitted on others.
-3. **Revocation is instant.** Pull permission in your Plurality dashboard and the agent loses access on its next request.
+3. **Shared Buckets:** If someone shared their buckets with you but only "Viewer" access, then you will not be able to add any information to that bucket (with or without MCP).
+4. **Revocation is instant.** Pull permission in your Plurality dashboard and the agent loses access on its next request.
 
 Tokens (both OAuth and PAT) are cached locally by the client. Plurality never receives, stores, or sees the credentials of the AI tools you connect.
+
+### Next Steps
+
+Check out guides for individual tools and the different MCP setups in the next section.&#x20;
