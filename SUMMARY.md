@@ -14,7 +14,6 @@
     * [GitHub Copilot](the-plurality-mcp-server/connect-your-agents-via-mcp/github-copilot.md)
     * [LM Studio](the-plurality-mcp-server/connect-your-agents-via-mcp/lm-studio.md)
     * [Lovable](the-plurality-mcp-server/connect-your-agents-via-mcp/lovable.md)
-    * [Replit](the-plurality-mcp-server/connect-your-agents-via-mcp/replit.md)
     * [TypingMind](the-plurality-mcp-server/connect-your-agents-via-mcp/typingmind.md)
     * [OpenClaw](the-plurality-mcp-server/connect-your-agents-via-mcp/openclaw.md)
     * [Other MCP Clients](the-plurality-mcp-server/connect-your-agents-via-mcp/other-mcp-clients.md)
