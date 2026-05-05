@@ -15,7 +15,7 @@ description: 'Last updated: April, 2026'
 
 For remote http mcp connections, windsurf only allows with Personal Access Tokens (PATs).&#x20;
 
-Read more here on how to create one from Memory Studio.
+Read more [here](../#personal-access-token-api-key) on how to create one from Memory Studio.
 
 
 
