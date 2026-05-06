@@ -44,6 +44,8 @@ Think of it as the operating system for your context: capture, sort, permission,
 
 → Read more: [AI Context Flow](../user-guides.md)
 
+→ Download here: [AI Context Flow](https://chromewebstore.google.com/detail/ai-context-flow-use-your/cfegfckldnmbdnimjgfamhjnmjpcmgnf)
+
 #### Layer 2b — The Plurality MCP Server (the bridge)
 
 The Plurality MCP Server speaks the [Model Context Protocol](https://modelcontextprotocol.io), an open standard for connecting AI agents to data sources. By exposing your Memory Buckets through MCP, any compatible agent can request context from your profile and (with your permission) receive it in real time.
