@@ -40,14 +40,13 @@ OCL has three pieces that build on each other:
 
 [**AI Context Flow**](https://chromewebstore.google.com/detail/ai-context-flow-ai-memory/cfegfckldnmbdnimjgfamhjnmjpcmgnf) is the browser extension that makes memory buckets useful day-to-day. It captures context from your existing apps, websites and conversations. It allows you to organize your context, and prepares it to be shared with the AI tools you actually use.
 
-**The Plurality MCP Server** is the bridge. It exposes your memory buckets to any AI agent that speaks the [Model Context Protocol](https://modelcontextprotocol.io) — Claude, ChatGPT, Cursor, GitHub Copilot, Windsurf, OpenClaw, and others — so they can read your context (with your permission) without you copy-pasting it into every new chat.
+**The Plurality MCP Server** is the bridge. It exposes your memory buckets to any AI agent that speaks the [Model Context Protocol](https://modelcontextprotocol.io) — Claude, Claude Code, ChatGPT, OpenClaw, Cursor, GitHub Copilot, Lovable, LMStudio, and others — so they can read your context (with your permission) without you provide context in each new session.
 
 #### Where to go next
 
 * **New here?** Read [Architecture at a glance](overview/architecture-at-a-glance.md) for a one-page overview of the system.
-* **Want to try it now?** Jump to the Quickstart — five minutes to your first context-aware agent.
-* **Just interested in MCP?** Jump to the relevant section.
-* **Just curious about the concepts?** Continue to Smart Profiles.
+* **Want to try it now?** Jump to the [Quickstart](overview/quickstart.md) — five minutes to your first context-aware agent.
+* **Just interested in connecting MCP?** Jump to the relevant [guides](the-plurality-mcp-server/connect-your-agents-via-mcp/).
 
 ## Join Our Community
 
