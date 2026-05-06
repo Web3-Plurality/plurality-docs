@@ -7,11 +7,11 @@ metaLinks:
 
 # Smart Profiles
 
-> 📜 **Smart Profiles are an older product of Plurality Network.**
+> 📜 **Smart Profiles are a previous product iteration of Plurality Network.**
 >
 > Smart Profiles are decentralized, user-owned data containers — the original primitive Plurality built to put context under user control. The active primitive used by AI Context Flow today is the **memory bucket**, but memory buckets are an architectural offspring of the Smart Profile model. Smart Profiles formed the conceptual and architectural basis for everything Plurality builds today.
 
-Smart Profiles are user-owned,decentralized, composable containers of context — preferences, history, identity, behavior, intent — that can be used across AI agents and applications to deliver hyper-personalized experiences.
+Smart Profiles are user-owned, decentralized, composable containers of context — preferences, history, identity, behavior, intent — that can be used across AI agents and applications to deliver hyper-personalized experiences.
 
 Instead of siloed data spread across platforms, Smart Profiles unify and enrich a user's digital footprint, making it portable, programmable, and private by default.
 
