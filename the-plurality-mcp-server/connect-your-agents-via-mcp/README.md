@@ -18,7 +18,6 @@ Each guide takes about five minutes. Most use OAuth, so there are no API keys to
 | [GitHub Copilot (VS Code)](github-copilot.md) | 2 min      | OAuth        |
 | [LM Studio](lm-studio.md)                     | 3 min      | OAuth        |
 | [Lovable](lovable.md)                         | 2 min      | OAuth        |
-| [Replit](/broken/pages/G4PZ42tN5b03127O60tL)  | 2 min      | OAuth        |
 | [TypingMind](typingmind.md)                   | 2 min      | API Key      |
 | [OpenClaw](openclaw.md)                       | 5 min      |  PAT         |
 | [Other MCP clients](other-mcp-clients.md)     | varies     | OAuth or PAT |

@@ -67,7 +67,7 @@ The Plurality MCP Server supports two authentication methods. Most users will us
 
 #### OAuth 2.1 (default)
 
-OAuth is the recommended option for connecting interactive AI tools — Claude Desktop, ChatGPT, Cursor, Windsurf, GitHub Copilot, Lovable, Replit, LM Studio, OpenClaw, and others.
+OAuth is the recommended option for connecting interactive AI tools like Claude Desktop, ChatGPT, Cursor, Windsurf, GitHub Copilot, Lovable, Replit, LM Studio, OpenClaw, and others.
 
 When you connect a tool, it opens a browser window and redirects you to Plurality's login flow. After you authenticate, the tool receives an access token scoped to your account. The tool stores this token locally; Plurality never sees the tool's session.
 
@@ -102,7 +102,7 @@ Authorization: Bearer plur_pat_xxx
 * Easy to scope to specific buckets or operations
 * Can be set per-environment (different tokens for dev/staging/prod)
 
-**Treat PATs like passwords** — never commit them to source control, and rotate them when team members leave or you need to disallow a certain agent to access your memory buckets.
+**Treat PATs like passwords:** never commit them to source control, and rotate them when team members leave or you need to disallow a certain agent to access your memory buckets.
 
 ### Permissions and security
 
