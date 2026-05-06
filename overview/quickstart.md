@@ -21,11 +21,12 @@ You have two connection options:
 
 <summary>Connect via Browser Extension</summary>
 
-> The browser extension supports these websites: ChatGPT, Claude, Grok, Perplexity and Gemini
+> The browser extension only supports prompt enhancements with context on these web based AI agents: ChatGPT, Claude, Grok, Perplexity and Gemini. \
+> However, you can add and use your context from any website.
 
-You can go to AI agent websites and you will see AI Context Flow elements within the agents. Write a prompt, select your memory bucket and press Optimize. \
+You can go to the supported AI agent websites and you will see AI Context Flow elements within the agents. Write a prompt, select your memory bucket and press Optimize. \
 \
-See the following tutorial to understand in detail how AI Context Flow works.&#x20;
+See the following tutorial to understand in detail how AI Context Flow works and all that it has to offer.
 
 {% embed url="https://www.youtube.com/watch?v=VO7Ro1uFiVQ" %}
 
@@ -35,7 +36,7 @@ See the following tutorial to understand in detail how AI Context Flow works.&#x
 
 <summary>Connect via MCP Server</summary>
 
-For detailed context usage and management, we recommend our MCP Server. We have guides covering most of the tools. \
+For detailed context usage and management, and for non UI environments (e.g. scripts, openclaw, etc.), we recommend our MCP Server. We have guides covering most of the tools. \
 \
 Read more: [Connect Your Agents via MCP](../the-plurality-mcp-server/connect-your-agents-via-mcp/)\
 \

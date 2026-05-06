@@ -71,7 +71,7 @@ When you ask Claude _"what was I working on last week?"_ and have setup the MCP 
 3. **The MCP Server** checks which bucket has the relevant context and retrieves it from the correct bucket.&#x20;
 4. The context is returned to Claude, which uses it to answer.
 
-#### How a request flows (The Browser Extension Way)
+#### How a request flows (the Browser Extension Way)
 
 Alternatively, if you are on a browser AI Agent and not using MCP.&#x20;
 
