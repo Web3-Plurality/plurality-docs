@@ -13,7 +13,6 @@ description: 'Last updated: April, 2026'
 * VS Code **1.99 or later**
 * A paid GitHub Copilot subscription
 * GitHub Copilot extension installed in VS Code
-* A Plurality personal access token. Read how to do it [here](../#personal-access-token-api-key)
 
 **Setup**
 

@@ -14,11 +14,11 @@ Each guide takes about five minutes. Most use OAuth, so there are no API keys to
 | [Claude Desktop / Web](claude-desktop-web.md) | 2–5 min    | OAuth        |
 | [Claude Code](claude-code.md)                 | 1 min      | OAuth        |
 | [Cursor](cursor.md)                           | 2 min      | OAuth        |
-| [Windsurf](windsurf.md)                       | 2 min      | OAuth        |
+| [Windsurf](windsurf.md)                       | 2 min      | PAT          |
 | [GitHub Copilot (VS Code)](github-copilot.md) | 2 min      | OAuth        |
-| [LM Studio](lm-studio.md)                     | 3 min      | OAuth        |
-| [Lovable](lovable.md)                         | 2 min      | OAuth        |
-| [TypingMind](typingmind.md)                   | 2 min      | API Key      |
+| [LM Studio](lm-studio.md)                     | 3 min      | PAT          |
+| [Lovable](lovable.md)                         | 2 min      | OAuth or PAT |
+| [TypingMind](typingmind.md)                   | 2 min      | PAT          |
 | [OpenClaw](openclaw.md)                       | 5 min      |  PAT         |
 | [Other MCP clients](other-mcp-clients.md)     | varies     | OAuth or PAT |
 
