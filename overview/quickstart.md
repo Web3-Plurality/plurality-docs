@@ -1,8 +1,6 @@
 # Quickstart
 
-### Quickstart
-
-> **TL;DR** Get your first AI agent reading your context in under five minutes using Plurality MCP Server
+> **TL;DR** Get your first AI agent reading your context in under five minutes
 
 #### What you'll need
 
