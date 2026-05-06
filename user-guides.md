@@ -30,7 +30,7 @@ AI Context Flow handles four jobs.
 
 #### 1. Capture
 
-Pull context in from the places it already lives — past or new AI chats, documents, notes, webpages, connected apps. You don't have to manually type out who you are or what you're working on; AI Context Flow ingests, deduplicates, and structures it.
+Pull context in from the places it already lives — past or new AI chats, documents, notes, webpage highlights, etc. You don't have to manually type out who you are or what you're working on; AI Context Flow ingests, deduplicates, and structures it.
 
 #### 2. Organize
 
@@ -42,13 +42,13 @@ Decide what each AI agent or other users are allowed to see. Permissions are per
 
 #### 4. Connect
 
-Expose your buckets to AI agents through the **Plurality MCP Server**. Once an agent is connected and permissioned, it can read your context the moment it needs to — no more pasting your background into every new conversation.
+Expose your buckets to AI agents through the **Plurality MCP Server**. Once an agent is connected and permissioned, it can read your context the moment it needs to — no more pasting your background into every new conversation or session.
 
 ### Why this matters
 
 Today, you re-explain yourself to every AI tool. _I work in product design. I'm building a B2B app. My team uses Linear. I prefer concise answers._ Every chat. Every tool. Every time.
 
-AI Context Flow ends that. You set up your context once. Your agents know it. And because the data lives in _your_ Smart Profiles — not in OpenAI's, not in Anthropic's, not in Plurality's — you can take it with you when you switch tools.
+AI Context Flow ends that. You set up your context once. Your agents know it. And because the data lives in _your_ memory buckets — not in OpenAI's, not in Anthropic's, not in Gemini's — you can take it with you when you switch tools.
 
 ### What's next
 
